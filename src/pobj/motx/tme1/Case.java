@@ -1,5 +1,7 @@
 package pobj.motx.tme1;
-	
+	/**
+	 * 
+	 */
 public class Case {
 	private int ligne;
 	private int colonne;

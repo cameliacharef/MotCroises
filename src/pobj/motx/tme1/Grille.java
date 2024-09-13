@@ -4,7 +4,7 @@ public class Grille {
 	private Case[][] matrice;
 	
 	public Grille(int hauteur, int largeur) {
-		matrice = new Case[largeur][hauteur];
+		matrice = new Case[hauteur][largeur];
 		for(int i = 0; i < matrice.length; i++) {
 			for(int j = 0; j < matrice[i].length; j++) {
 				matrice[i][j] = new Case(i, j, ' ');
