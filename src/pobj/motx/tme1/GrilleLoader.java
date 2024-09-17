@@ -5,6 +5,9 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+/**
+ * 
+ */
 public class GrilleLoader {
 
 	/**
@@ -76,7 +79,11 @@ public class GrilleLoader {
 		}
 		return gc;
 	}
-
+	/**
+	 * 
+	 * @param g grille
+	 * @param path path
+	 */
 	public static void saveGrille(Grille g, String path) {
 		try {
 			PrintWriter pw = new PrintWriter(path);
@@ -92,8 +99,8 @@ public class GrilleLoader {
 	 * Fournit une représentation de la grille comme une String. L'affichage est
 	 * contrôlé par le style, cf. méthode setStyle().
 	 * 
-	 * @param g
-	 *            une grille
+	 * @param g une grille
+	 * @param isGrlFormat boolean
 	 * @return une String représentant g.
 	 */
 	public static String serialize(Grille g, boolean isGrlFormat) {
