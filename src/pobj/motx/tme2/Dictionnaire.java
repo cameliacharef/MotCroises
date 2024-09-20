@@ -76,4 +76,7 @@ public class Dictionnaire {
 		}
 	}
 	
+	public static Dictionnaire loadDictionnaire(String path) {
+		
+	}
 }
