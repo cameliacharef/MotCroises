@@ -59,10 +59,13 @@ public class GrillePlaces {
 			if(!c.isPleine())
 				e.add(c);
 			else{
-				if(e.size() > 2)	
+				if(e.size() >= 2)	
 					places.add(e);
 				e = new Emplacement();
 			}
 		}
+		if (e.size() >= 2) {
+	        places.add(e);
+	    }
 	}
 }

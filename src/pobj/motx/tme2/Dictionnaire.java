@@ -1,8 +1,12 @@
 package pobj.motx.tme2;
-
+import java.io.BufferedReader; 
+import java.io.FileReader; 
+import java.io.IOException; 
+  
 import java.util.ArrayList;
 import java.util.List;
 
+  
 /**
  * Un ensemble de mots.
  *
@@ -77,6 +81,17 @@ public class Dictionnaire {
 	}
 	
 	public static Dictionnaire loadDictionnaire(String path) {
-		
+		Dictionnaire dico = new Dictionnaire();
+		// Try-with-resource : cette syntaxe permet d’accéder au contenu du fichier ligne par ligne.
+		try (BufferedReader br = new BufferedReader(new FileReader(path))) {
+			for (String line = br.readLine() ; line != null ; line = br.readLine() ) {
+			// Utiliser "line".
+				dico.add(line);
+			}
+		} catch (IOException e) {
+		// Problème d’accès au fichier.
+			e.printStackTrace();
+		}
+		return dico;
 	}
 }
