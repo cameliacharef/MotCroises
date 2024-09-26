@@ -19,7 +19,15 @@ public class GrillePlaces {
 			cherchePlaces(col);
 		}
 	}	
-	
+	public GrillePlaces fixer(int m, String soluce) {
+		GrillePlaces res = new GrillePlaces(grille.copy());
+		Emplacement e = res.getPlaces().get(m);
+		for (int i = 0; i < e.size(); i++) {
+			e.getCase(i).setChar(soluce.charAt(i));
+		}
+		return res;
+		
+	}
 	public List<Emplacement> getPlaces(){
 		return places;
 	}
@@ -35,7 +43,7 @@ public class GrillePlaces {
 	@Override public String toString() {
 		String s = "";
 		for(Emplacement e : places)
-			s += e + "\n";
+			s += e.toString() + "\n";
 		return s;
 	}
 	

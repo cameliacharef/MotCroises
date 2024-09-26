@@ -41,4 +41,9 @@ public class GrillePotentiel {
 		return false;
 		
 	}
+	public GrillePotentiel fixer(int m, String soluce) {
+		GrillePlaces nvgrillePlace = grilleplace.fixer(m, soluce);
+		GrillePotentiel g = new GrillePotentiel(nvgrillePlace, dico);
+		return g;
+	}
 }
