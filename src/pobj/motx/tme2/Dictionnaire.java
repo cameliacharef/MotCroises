@@ -5,15 +5,16 @@ import java.io.IOException;
   
 import java.util.ArrayList;
 import java.util.List;
-
+	
   
 /**
- * Un ensemble de mots.
+ * Classe de representation d'Un ensemble de mots.
  *
  */
 public class Dictionnaire {
-
+	
 	// stockage des mots
+	/** liste de stockage des mots*/
 	private List<String> mots = new ArrayList<>();
 
 	/**
@@ -70,7 +71,10 @@ public class Dictionnaire {
 		return cpt;
 	}
 	
-	
+	/**
+	 * lit le fichier path et le stocke dans un dictionnaire
+	 * @return le dictionnaire lu
+	 */
 	@Override
 	public String toString() {
 		if (size() == 1) {
@@ -79,7 +83,11 @@ public class Dictionnaire {
 			return "Dico size =" + size();
 		}
 	}
-	
+	/**
+	 * lit le fichier path et le stocke dans un dictionnaire
+	 * @param path fichier a lire
+	 * @return le dictionnaire lu
+	 */
 	public static Dictionnaire loadDictionnaire(String path) {
 		Dictionnaire dico = new Dictionnaire();
 		// Try-with-resource : cette syntaxe permet d’accéder au contenu du fichier ligne par ligne.
@@ -94,7 +102,13 @@ public class Dictionnaire {
 		}
 		return dico;
 	}
-
+	/**
+	 * Retire les mots qui ne garde que les mots dont la ième lettre est égale
+		au caractère de l’argument c
+	 * @param c le character voulu
+	 * @param i le i eme character 
+	 * @return le nombre de mots supprimés
+	 */
 	public int filtreParLettre(char c, int i) {
 		List<String> cible = new ArrayList<>();
 		int cpt=0;

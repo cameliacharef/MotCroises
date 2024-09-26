@@ -1,1 +1,1 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"pobj.motx.tme1","l":"Case"},{"p":"pobj.motx.tme1","l":"Emplacement"},{"p":"pobj.motx.tme1","l":"Grille"},{"p":"pobj.motx.tme1","l":"GrilleLoader"}];updateSearchResults();
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"pobj.motx.tme2","l":"Dictionnaire"},{"p":"pobj.motx.tme2","l":"GrillePlaces"},{"p":"pobj.motx.tme2","l":"GrillePotentiel"}];updateSearchResults();
