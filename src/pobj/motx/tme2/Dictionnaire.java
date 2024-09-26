@@ -69,7 +69,7 @@ public class Dictionnaire {
 		mots = cible;
 		return cpt;
 	}
-
+	
 	
 	@Override
 	public String toString() {
@@ -94,4 +94,18 @@ public class Dictionnaire {
 		}
 		return dico;
 	}
+
+	public int filtreParLettre(char c, int i) {
+		List<String> cible = new ArrayList<>();
+		int cpt=0;
+		for (String mot : mots) {
+			if (mot.charAt(i) == c)
+				cible.add(mot);
+			else
+				cpt++;
+		}
+		mots = cible;
+		return cpt;
+	}
+
 }
