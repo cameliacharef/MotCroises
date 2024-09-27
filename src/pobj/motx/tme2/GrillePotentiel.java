@@ -70,4 +70,21 @@ public class GrillePotentiel {
 		GrillePotentiel g = new GrillePotentiel(nvgrillePlace, dico);
 		return g;
 	}
+	
+	/**
+	* Accède a l'Attribut grillePlace
+	* @return la grille actuelle
+	 */
+	public GrillePlaces getGrillePlaces() {
+		return grilleplace;
+	}
+	
+	/**
+	* Accède a l'Attribut dico
+	* @return le dictionnaire français
+	 */
+	public Dictionnaire getDictionnaire() {
+		return dico;
+	}
+	
 }

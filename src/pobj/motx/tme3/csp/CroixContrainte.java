@@ -55,9 +55,13 @@ public class CroixContrainte implements IContrainte {
 		}
 		
 		return nb_mots_filtre;
+
 		
-		
-		
-		
+	}
+	public boolean equals(Object other) {
+		if (other == this) return true;
+		if(!( other instanceof CroixContrainte)) return false;
+		CroixContrainte c = (CroixContrainte) other;
+		return c.m1 == m1 && c.m2 == m2 && c.c1 == c1 && c.c2 == c2;
 	}
 }

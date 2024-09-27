@@ -30,7 +30,7 @@ public class GrillePlaces {
 	}	
 	
 	/**
-	* donne une nouvelle GrillePotentiel avec la grille résultant de l’affectation.
+	* donne une nouvelle GrillePlaces avec la grille résultant de l’affectation.
 	* @param m indice de l'emplacement 
 	* @param soluce lettres a chercher
 	* @return nouvelle grille où les cases constituant l’emplacement de mot d’indice m ont pour contenu les lettres de soluce
