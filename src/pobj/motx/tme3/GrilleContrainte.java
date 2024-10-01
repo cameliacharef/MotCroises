@@ -44,14 +44,38 @@ public class GrilleContrainte extends GrillePotentiel{
 		}
 	}
 	
+	/**
+	* initialisera une nouvelle GrilleContrainte avec la grille résultant de l’affectation.
+	* @param m indice de l'emplacement 
+	* @param soluce lettres a chercher
+	* @return une nouvelle GrilleContrainte avec la grille résultant de l’affectation.
+	 */
 	public GrilleContrainte fixer(int m, String soluce) {
-		return ;
+		GrillePlaces grilleplace = super.getGrillePlaces();
+		GrillePlaces nvgrillePlace = grilleplace.fixer(m, soluce);
+		Dictionnaire dico = super.getDictionnaire();
+		GrilleContrainte g = new GrilleContrainte(nvgrillePlace, dico);
+		return g;
 	}
 	
 	
 	// Accesseurs 
 	public List<IContrainte> getContraintes(){
 		return contraintes;
+	}
+	
+	private boolean propage() {
+		while(true) {
+			int nb_mot_elimine = 0;
+			for (IContrainte i :  contraintes) {
+				i.reduce(this);
+				nb_mot_elimine = i.reduce(this);
+			}
+			if (this.isDead() || nb_mot_elimine == 0 ){
+				return false;
+			}
+			
+		}
 	}
 }
 
