@@ -69,7 +69,7 @@ public class GrilleContrainte extends GrillePotentiel{
 			int nb_mot_elimine = 0;
 			for (IContrainte i :  contraintes) {
 				i.reduce(this);
-				nb_mot_elimine = i.reduce(this);
+				nb_mot_elimine += i.reduce(this);
 			}
 			if (this.isDead() || nb_mot_elimine == 0 ){
 				return false;

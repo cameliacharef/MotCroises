@@ -41,6 +41,9 @@ public class Dictionnaire {
 	public String get(int i) {
 		return mots.get(i);
 	}
+	public List<String> getMots() {
+        return mots;
+    }
 
 	/**
 	 * Rend une copie de ce Dictionnaire.
@@ -121,5 +124,20 @@ public class Dictionnaire {
 		mots = cible;
 		return cpt;
 	}
+	/*public int filtreParEnsebleLettre(EnsembleLettre e , int i) {
+		int nbMotSupp = 0 ; 
+		List<String> cible = new ArrayList<>();
+		for(String mot : mots) {
+			if(e.contains(mot.charAt(i))) {
+				cible.add(mot);
+			}
+			else {
+				nbMotSupp++;
+			}
+		}
+		
+		mots = cible;
+		return nbMotSupp;
+	}*/
 
 }

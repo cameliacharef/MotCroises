@@ -1,5 +1,6 @@
 package pobj.motx.tme3;
 import java.util.HashSet;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
@@ -59,6 +60,41 @@ public class CroixContrainte implements IContrainte {
 
 		
 	}
+	/*public int reduce (GrillePotentiel grille) {
+		EnsembleLettre l1 = new EnsembleLettre();
+		EnsembleLettre l2 = new EnsembleLettre();
+		int nbMotsupp = 0;
+		
+		List<Dictionnaire> l_dico = grille.getMotsPot();
+		Dictionnaire d1 =  l_dico.get(m1);
+		Dictionnaire d2 =  l_dico.get(m2);
+		
+		for(int i = 0 ; i < d1.size() ; i++) {
+			l1.add(d1.get(i).charAt(c1));
+		}
+		
+		
+		for(int j = 0 ; j < d2.size() ; j++) {
+			l2.add(d2.get(j).charAt(c2));
+		}
+		
+		
+		EnsembleLettre s = l1.intersect(l2);
+		
+		if(l1.size() > s.size()) {
+			nbMotsupp += d1.filtreParEnsebleLettre(s, c1);
+			
+		}
+		
+		
+		if(l2.size() > s.size()) {
+			nbMotsupp += d2.filtreParEnsebleLettre(s, c2);
+		}
+		
+		return nbMotsupp;
+		
+	}*/
+
 	public boolean equals(Object other) {
 		if (other == this) return true;
 		if(!( other instanceof CroixContrainte)) return false;
