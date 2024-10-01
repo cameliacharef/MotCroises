@@ -1,4 +1,4 @@
-package pobj.motx.tme3.csp;
+package pobj.motx.tme3;
 
 import pobj.motx.tme2.*;
 

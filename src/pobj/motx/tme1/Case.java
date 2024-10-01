@@ -1,5 +1,7 @@
 package pobj.motx.tme1;
-	/**
+
+
+/**
 	 * Classe de représentation de Case dans une grille de mots croisés
 	 */
 
@@ -63,6 +65,19 @@ public class Case {
 	 */
 	public boolean isPleine() {
 		return valeur == '*';
+	}
+	
+	/**
+	* Test l'egalite entre les 2 cases
+	* @param other objet a tester
+	* @return true si l'objet est egale a la case , false sinon
+	 */
+	@Override
+	public boolean equals(Object other) {
+		if (other == this) return true;
+		if(!( other instanceof Case)) return false;
+		Case c = (Case) other;
+		return c.ligne == ligne && c.colonne == colonne && c.valeur == valeur ;
 	}
 	
 }

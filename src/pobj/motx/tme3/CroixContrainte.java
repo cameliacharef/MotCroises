@@ -1,4 +1,4 @@
-package pobj.motx.tme3.csp;
+package pobj.motx.tme3;
 
 import java.util.ArrayList;
 import java.util.List;
