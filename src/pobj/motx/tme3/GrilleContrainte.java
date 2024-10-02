@@ -37,7 +37,7 @@ public class GrilleContrainte extends GrillePotentiel{
 						Case cVertical = vertical.getCase(c2);
 						
 						
-						if (cHorizontal.equals(cVertical) && !horizontal.getCase(c1).isPleine()) { // croisement et case sans lettre
+						if (cHorizontal.equals(cVertical) && horizontal.getCase(c1).isVide()) { // croisement et case sans lettre
 							CroixContrainte c = new CroixContrainte(i, c1, j, c2 );
 							contraintes.add(c); 
 						}
@@ -45,9 +45,9 @@ public class GrilleContrainte extends GrillePotentiel{
 				}
 			}
 		}
-		/*for(IContrainte ic : contraintes) {
+		for(IContrainte ic : contraintes) {
     			ic.reduce(this);
-    		}*/
+    		}
 	}
 	
 	/**

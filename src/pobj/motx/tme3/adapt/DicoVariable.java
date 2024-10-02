@@ -22,4 +22,12 @@ public class DicoVariable implements IVariable{
 	public String toString() {
 		return "index = " + indice + ", domaine = " + getDomain()+"}";
 	}
+	
+	public GrilleContrainte getGrilleContrainte() {
+		return grille_contrainte;
+	}
+	
+	public int getIndice() {
+		return indice;
+	}
 }

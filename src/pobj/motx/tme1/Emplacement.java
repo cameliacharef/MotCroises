@@ -48,4 +48,13 @@ public class Emplacement {
 		}
 		return s;
 	}
+	
+	public boolean hasCaseVide() {
+		for (Case c : cases) {
+			if (c.isVide()) {
+				return true;
+			}
+		}
+		return false;
+	}
 }
