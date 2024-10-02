@@ -87,4 +87,6 @@ public class GrillePotentiel {
 		return dico;
 	}
 	
+	@Override public String toString() {return grilleplace.toString();}
+	
 }

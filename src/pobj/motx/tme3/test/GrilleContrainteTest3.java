@@ -116,13 +116,13 @@ public class GrilleContrainteTest3 {
 		assertEquals(20, gr.nbCol());
 		assertEquals(20, gr.nbLig());
 
-		// System.out.println(gr);
+		System.out.println(gr);
 
 		GrillePlaces grille = new GrillePlaces(gr);
 
 		GrilleContrainte gp = new GrilleContrainte(grille, gut);
 
-		// System.out.println(gp);
+		System.out.println(gp);
 
 		assertTrue(gp.isDead());
 

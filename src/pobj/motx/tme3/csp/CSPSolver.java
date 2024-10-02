@@ -1,6 +1,8 @@
 package pobj.motx.tme3.csp;
 
 public class CSPSolver {
+	// BONUS
+	private IChoixVar stratVar;
 
 	public ICSP solve(ICSP problem) {
 		System.out.println("Solve : \n" + problem);
@@ -34,6 +36,12 @@ public class CSPSolver {
 		}
 		System.out.println("Backtrack sur variable "+ vi);
 		return next;
+	}
+	
+	// BONUS
+	
+	public void setChoixVarStrat(IChoixVar strat) {
+		stratVar = strat;
 	}
 
 
