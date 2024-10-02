@@ -124,20 +124,9 @@ public class Dictionnaire {
 		mots = cible;
 		return cpt;
 	}
-	/*public int filtreParEnsebleLettre(EnsembleLettre e , int i) {
-		int nbMotSupp = 0 ; 
-		List<String> cible = new ArrayList<>();
-		for(String mot : mots) {
-			if(e.contains(mot.charAt(i))) {
-				cible.add(mot);
-			}
-			else {
-				nbMotSupp++;
-			}
-		}
-		
-		mots = cible;
-		return nbMotSupp;
-	}*/
+	
+	public void setMots(List<String> nouveauxMots) {
+	    this.mots = nouveauxMots;
+	}
 
 }

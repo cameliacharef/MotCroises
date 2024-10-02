@@ -26,7 +26,7 @@ public class GrilleContrainteTest1 {
 		assertEquals(5, gr.nbCol());
 		assertEquals(5, gr.nbLig());
 
-		// System.out.println(gr);
+		System.out.println(gr);
 
 		GrillePlaces grille = new GrillePlaces(gr);
 

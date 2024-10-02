@@ -7,10 +7,12 @@ import pobj.motx.tme2.*;
 import pobj.motx.tme1.*;
 public class GrilleContrainte extends GrillePotentiel{
 	private List<IContrainte> contraintes;
+	
 	public GrilleContrainte(GrillePlaces grille, Dictionnaire dicoComplet) {
 		super(grille, dicoComplet);
 		contraintes = new ArrayList<IContrainte>();
 		updateContraintes(); // renseigner l’attribut contraintes
+		propage();
 	}
 	
 	private void updateContraintes() {
@@ -43,11 +45,10 @@ public class GrilleContrainte extends GrillePotentiel{
 				}
 			}
 		}
+		/*for(IContrainte ic : contraintes) {
+    			ic.reduce(this);
+    		}*/
 	}
-	
-	/*private void updateContraintes() {
-		
-	}*/
 	
 	/**
 	* initialisera une nouvelle GrilleContrainte avec la grille résultant de l’affectation.
@@ -71,18 +72,22 @@ public class GrilleContrainte extends GrillePotentiel{
 	public List<IContrainte> getContraintes(){
 		return contraintes;
 	}
-	
-	/*private boolean propage() {
+	private boolean propage() {
+		int nb_mot_elimine = 0;
 		while(true) {
-			int nb_mot_elimine = 0;
+			nb_mot_elimine = 0;
 			for (IContrainte i :  contraintes) {
 				nb_mot_elimine += i.reduce(this);
 			}
-			if (this.isDead() || nb_mot_elimine == 0 ){
+			if (this.isDead()){
 				return false;
 			}
-			
+			if(nb_mot_elimine == 0) {
+				return true;
+			}
 		}
-	}*/
+		
+		
+	}
 }
 
