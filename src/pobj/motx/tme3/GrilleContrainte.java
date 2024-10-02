@@ -34,9 +34,10 @@ public class GrilleContrainte extends GrillePotentiel{
 					for(int c2 = 0; c2 < vertical.size(); c2++) {
 						Case cVertical = vertical.getCase(c2);
 						
-						/*Egalitees*/
-						if (cHorizontal.equals(cVertical) && horizontal.getCase(c1).isVide()) { // croisement et case sans lettre
-							contraintes.add(new CroixContrainte(i, c1, j, c2 )); 
+						
+						if (cHorizontal.equals(cVertical) && !horizontal.getCase(c1).isPleine()) { // croisement et case sans lettre
+							CroixContrainte c = new CroixContrainte(i, c1, j, c2 );
+							contraintes.add(c); 
 						}
 					}
 				}
@@ -44,9 +45,16 @@ public class GrilleContrainte extends GrillePotentiel{
 		}
 	}
 	
+	/*private void updateContraintes() {
+		
+	}*/
+	
 	/**
 	* initialisera une nouvelle GrilleContrainte avec la grille résultant de l’affectation.
-	* @param m indice de l'emplacement 
+	* @param m indice de l'emplacement 	public boolean contains(Character c) {
+		return l.contains(c);
+	}
+	
 	* @param soluce lettres a chercher
 	* @return une nouvelle GrilleContrainte avec la grille résultant de l’affectation.
 	 */
@@ -64,11 +72,10 @@ public class GrilleContrainte extends GrillePotentiel{
 		return contraintes;
 	}
 	
-	private boolean propage() {
+	/*private boolean propage() {
 		while(true) {
 			int nb_mot_elimine = 0;
 			for (IContrainte i :  contraintes) {
-				i.reduce(this);
 				nb_mot_elimine += i.reduce(this);
 			}
 			if (this.isDead() || nb_mot_elimine == 0 ){
@@ -76,6 +83,6 @@ public class GrilleContrainte extends GrillePotentiel{
 			}
 			
 		}
-	}
+	}*/
 }
 

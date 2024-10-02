@@ -40,7 +40,7 @@ public class CroixContrainte implements IContrainte {
 		Set<Character> s = new HashSet<Character>(l1);
 		s.retainAll(l2);
 		
-		//
+		
 		Dictionnaire motsPot1 = liste_dico.get(m1);
 		int nb_mots_filtre = 0;
 		if(l1.size() > s.size()) {
@@ -57,7 +57,7 @@ public class CroixContrainte implements IContrainte {
 		}
 	
 		return nb_mots_filtre;
-
+		
 		
 	}
 	/*public int reduce (GrillePotentiel grille) {

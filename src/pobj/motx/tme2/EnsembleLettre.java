@@ -33,5 +33,4 @@ public class EnsembleLettre {
 		return res;
 	}
 	
-	
 }

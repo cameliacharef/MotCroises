@@ -12,7 +12,7 @@ public class MotX implements ICSP{
 	private GrilleContrainte gc ;
 	
 	public MotX(GrilleContrainte gc) {
-		dicoV = new ArrayList<DicoVariable>();
+		dicoV = new ArrayList<IVariable>();
 		this.gc = gc;
 	}
 	
