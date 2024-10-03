@@ -13,6 +13,7 @@ import pobj.motx.tme3.adapt.StratMin;
 import pobj.motx.tme3.csp.CSPSolver;
 import pobj.motx.tme3.csp.ICSP;
 
+// Tests sur les grilles : easy.grl, split.grl, propage.grl
 
 public class GrilleSolverTest {
 

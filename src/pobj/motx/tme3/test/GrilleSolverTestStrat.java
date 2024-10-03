@@ -8,6 +8,8 @@ import pobj.motx.tme3.*;
 import pobj.motx.tme3.csp.*;
 import pobj.motx.tme3.adapt.*;
 
+// Comparaison entre StratMin et StratFirst sur enonce.grl et hard.grl
+
 public class GrilleSolverTestStrat {
 	@Test
 	public void compareStrategiesEnonce() {

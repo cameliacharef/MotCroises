@@ -13,6 +13,8 @@ import pobj.motx.tme3.adapt.StratMin;
 import pobj.motx.tme3.csp.CSPSolver;
 import pobj.motx.tme3.csp.*;
 
+// Combinaisons de plusieurs stratégies de résolution sur les variables et les valeurs
+
 public class GrilleSolverTestStrat2 {
 	@Test
 	public void compareStratBasicRandom() {
@@ -164,7 +166,5 @@ public class GrilleSolverTestStrat2 {
 	    } else {
 	        System.out.println("StratFreq est plus rapide que StratMin.");
 	    }
-	    
-	    //BONJOURRRRRRRRRRRRRRRRRRRRRRRRR
 	}
 }

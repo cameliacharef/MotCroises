@@ -2,13 +2,22 @@ package pobj.motx.tme3.csp;
 
 import java.util.List;
 
-import pobj.motx.tme3.*;
+/**
+ * Cette classe résout un ICSP problème
+ */
 
 public class CSPSolver {
 	// BONUS
+	/** Sert à choisir le type de statégie de résolution pour la variable */
 	private IChoixVar stratVar;
+	/** Sert à choisir le type de statégie de résolution pour la valeur */
 	private IChoixValeur stratVal;
-
+	
+	/**
+     * Constructeur de la classe DicoVariable.
+     * @param index indice de l'emplacement du mot
+     * @param gp la grille de contraintes associée à cette variable
+     */
 	public ICSP solve(ICSP problem) {
 		System.out.println("Solve : \n" + problem);
 		// Condition terminale : succès
@@ -27,7 +36,7 @@ public class CSPSolver {
 		// On est garantis que ! getVars().isEmpty(), testé au dessus
 		
 		//=======================BONUS============================
-		IVariable vi = problem.getVars().get(0);
+		IVariable vi = problem.getVars().get(0); // Valeur par défaut si stratVal == null
 		if(stratVar != null) {
 			vi = stratVar.chooseVar(problem);
 		}
@@ -56,10 +65,18 @@ public class CSPSolver {
 	
 	// BONUS
 	
+	/**
+	 * Définit le type de stratégie pour la variable
+	 * @param strat
+	 */
 	public void setChoixVarStrat(IChoixVar strat) {
 		stratVar = strat;
 	}
 	
+	/**
+	 * Définit le stype de stratégie pour la valeur
+	 * @param strat
+	 */
 	public void setChoixValeurStrat(IChoixValeur strat) {
 		stratVal = strat;
 	}
