@@ -29,7 +29,7 @@ public class GrilleSolverTestLarge {
 		CSPSolver solver = new CSPSolver();
 		
 		//solver.setChoixVarStrat(new StratFirst());
-		//solver.setChoixVarStrat(new StratMin());
+		solver.setChoixVarStrat(new StratMin());
 		//solver.setChoixValeurStrat(new StratFreq());
 		//solver.setChoixValeurStrat(new StratRandom());
 		
