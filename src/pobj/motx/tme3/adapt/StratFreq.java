@@ -7,7 +7,13 @@ import pobj.motx.tme3.csp.ICSP;
 import pobj.motx.tme3.csp.IChoixValeur;
 import pobj.motx.tme3.csp.IVariable;
 
+/**
+ * Classe de stratégie de choix de valeur basée sur la fréquence des lettres.
+ * Cette stratégie ordonne les mots du domaine d'une variable en fonction 
+ * d'un score basé sur la fréquence des lettres.
+ */
 public class StratFreq implements IChoixValeur {
+	// Tableau des scores de chaque lettre basé sur leur fréquence
 	private static int[] letterFrequencies = new int[26];
 	
 	static {	
@@ -39,6 +45,11 @@ public class StratFreq implements IChoixValeur {
 	letterFrequencies['Y' - 'A'] = 10; 
 	letterFrequencies['Z' - 'A'] = 10;
 }	
+	 /**
+     * Calcule le score d'un mot en additionnant les scores de chaque lettre.
+     * @param mot le mot pour lequel le score doit être calculé
+     * @return le score total du mot
+     */
 	private int getScore(String mot) {
 		int score = 0;
 		for(int i = 0; i < mot.length(); i++) {
@@ -49,15 +60,23 @@ public class StratFreq implements IChoixValeur {
 		return score ;
 	}
 	
+	/**
+     * Ordre les valeurs du domaine d'une variable en fonction de leur score,
+     * en utilisant une méthode de tri par insertion.
+     * @param problem le problème de CSP (non utilisé ici mais peut être pertinent dans d'autres contextes)
+     * @param v la variable dont les valeurs doivent être ordonnées
+     * @return une liste de mots du domaine, triée par score
+     */
 	public List<String> orderValues (ICSP problem, IVariable v){
 		List<String> liste = v.getDomain();
 		for(int i = 0; i < liste.size(); i++) {
 			String mot = liste.get(i);
-			int score_i = getScore(mot);
+			int score_i = getScore(mot); // Calculer le score du mot
 			int j = i -1;
 			
+			// Déplacer les mots de la liste pour insérer le mot courant à sa position
 			while(j >= 0 && getScore(liste.get(j)) > score_i){
-				liste.set(j + 1,  liste.get(j));
+				liste.set(j + 1,  liste.get(j)); // Déplacer le mot vers la droite
 				j--;
 			}
 			liste.set(j +1, mot);
