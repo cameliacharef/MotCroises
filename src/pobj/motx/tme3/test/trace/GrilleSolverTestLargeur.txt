@@ -1,0 +1,1710 @@
+Chargement grille 40 lignes x 40 colonnes 
+
+Test Larger : 
+========================================================================================================================
+       *           *                 *                    *                    *                 *                    * 
+                *              *        *                 *        *     *                 *                 *     *    
+       *                    *                       *              *     *           *  *           *              *    
+    *           *  *                          *              *              *                          *           *    
+    *  *        *  *  *                 *           *                    *              *     *                 *     * 
+                   *           *  *                       *        *     *     *           *        *              *    
+ *     *  *        *                       *                    *     *     *     *        *                    *       
+          *              *           *  *              *        *                 *                          *     *    
+ *  *              *                 *  *        *           *           *                    *        *  *        *    
+          *  *                    *                       *  *  *     *                 *                       *     * 
+          *  *                       *           *           *              *              *              *     *       
+ *                    *        *  *  *                    *  *  *        *                 *                    *       
+                               *                 *  *        *        *                       *        *                
+       *     *  *                 *  *     *  *  *                    *           *     *     *                    *    
+    *                    *  *  *           *     *           *              *     *              *              *     * 
+                   *                                         *           *                       *        *     *       
+ *  *        *  *              *  *        *                    *     *              *  *        *        *        *    
+          *  *  *     *                       *     *     *                    *                    *  *  *  *          
+       *  *        *     *     *     *                          *                          *           *        *     * 
+                            *                 *  *        *        *        *        *              *              *    
+                   *                 *        *  *        *        *        *                 *     *     *             
+       *        *              *        *                 *                                   *     *              *    
+                            *                       *        *     *     *           *           *     *     *     *    
+                *  *        *                 *                 *  *     *        *        *  *           *             
+    *  *        *  *  *                 *           *                             *                                     
+                   *           *  *                       *        *     *        *     *     *              *          
+ *     *  *        *                       *                       *                                *     *        *    
+          *              *           *  *              *        *  *                       *        *     *  *          
+                   *                 *  *        *              *        *  *        *                       *          
+          *  *                    *                       *                    *                    *                 * 
+          *  *        *              *           *                    *           *              *                      
+ *                    *        *  *  *                    *  *  *  *  *  *  *  *           *                            
+                               *                 *  *        *                          *                 *     *       
+       *     *  *                    *     *  *  *              *     *                 *  *        *     *        *    
+    *                    *  *  *           *     *                          *  *                    *                   
+                   *                       *                                         *           *                      
+ *  *        *  *              *  *        *        *                 *              *                 *  *     *       
+          *  *  *     *                       *     *     *  *  *                             *                    *    
+       *  *        *     *     *     *                                         *           *                            
+                            *                             *           *     *                                           
+========================================================================================================================
+
+Solve : 
+pobj.motx.tme3.adapt.MotX@d737b89
+Problème valide.
+Fixe var :index = 149, domaine = [ah, ai, an, as, au, ca, cc, ce, cf, cg, ch, ci, cl, cm, eh, en, es, et, eu, go, if, il, in, la, le, li, lu, na, ne, ni, no, nu, oc, oh, on, or, os, ou, ph, pi, pu, ra, re, ri, ru, sa, se, si, su, ta, te, tu]} à ah
+Solve : 
+pobj.motx.tme3.adapt.MotX@16eb3ea3
+Problème valide.
+Fixe var :index = 367, domaine = [hai, han, hem, hep, heu, hic, hie, hop, hou, hua, hue, hui, hum]} à hai
+Solve : 
+pobj.motx.tme3.adapt.MotX@273444fe
+Problème valide.
+Fixe var :index = 135, domaine = [ai, an, as, au, bu, ce, cg, ci, de, dg, do, du, en, es, et, eu, fi, go, he, hi, ho, in, je, kg, le, li, lu, me, mg, mi, ms, mu, ne, ni, no, nu, on, os, ou, pi, pu, re, ri, ru, se, si, su, te, tu, un, us, ut, vu, xi]} à ai
+Solve : 
+pobj.motx.tme3.adapt.MotX@33bc72d1
+Problème valide.
+Fixe var :index = 362, domaine = [desembourgeoisaient, desembourgeoisasses, intellectualisaient, intellectualisasses, interdisciplinaires, multidisciplinaires, pluridisciplinaires, postsynchronisaient, postsynchronisasses]} à desembourgeoisaient
+Solve : 
+pobj.motx.tme3.adapt.MotX@1a75e76a
+Problème valide.
+Fixe var :index = 163, domaine = [eidetique]} à eidetique
+Solve : 
+pobj.motx.tme3.adapt.MotX@5524cca1
+Problème valide.
+Fixe var :index = 56, domaine = [ide, ode]} à ide
+Solve : 
+pobj.motx.tme3.adapt.MotX@5032714f
+Problème valide.
+Fixe var :index = 126, domaine = [do, go, ho, no]} à do
+Solve : 
+pobj.motx.tme3.adapt.MotX@48bb62
+Problème valide.
+Fixe var :index = 357, domaine = [edam]} à edam
+Solve : 
+pobj.motx.tme3.adapt.MotX@353352b6
+Problème valide.
+Fixe var :index = 83, domaine = [ma, me, mg, mi, ms, mu]} à ma
+Solve : 
+pobj.motx.tme3.adapt.MotX@4681c175
+Problème valide.
+Fixe var :index = 69, domaine = [est, osa, ose, psi, pst, usa, use]} à est
+Solve : 
+pobj.motx.tme3.adapt.MotX@57a78e3
+Problème valide.
+Fixe var :index = 168, domaine = [es, et, eu, il, oc, or, os, ou]} à es
+Solve : 
+pobj.motx.tme3.adapt.MotX@402c4085
+Problème valide.
+Fixe var :index = 379, domaine = [est]} à est
+Solve : 
+pobj.motx.tme3.adapt.MotX@6fa51cd4
+Problème valide.
+Fixe var :index = 181, domaine = [cl, dl, et, il, ut]} à cl
+Solve : 
+pobj.motx.tme3.adapt.MotX@2767e23c
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 181, domaine = [cl, dl, et, il, ut]} à dl
+Solve : 
+pobj.motx.tme3.adapt.MotX@710c2b53
+Problème valide.
+Fixe var :index = 174, domaine = [initiat]} à initiat
+Solve : 
+pobj.motx.tme3.adapt.MotX@5386659f
+Problème valide.
+Fixe var :index = 188, domaine = [obei]} à obei
+Solve : 
+pobj.motx.tme3.adapt.MotX@14028087
+Problème valide.
+Fixe var :index = 373, domaine = [idealisa, idealise, idealite]} à idealisa
+Solve : 
+pobj.motx.tme3.adapt.MotX@cecf639
+Problème valide.
+Fixe var :index = 167, domaine = [konzern, leghorn, pattern, popcorn, saxhorn, western]} à konzern
+Solve : 
+pobj.motx.tme3.adapt.MotX@1caa0244
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 167, domaine = [konzern, leghorn, pattern, popcorn, saxhorn, western]} à leghorn
+Solve : 
+pobj.motx.tme3.adapt.MotX@7ce026d3
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 167, domaine = [konzern, leghorn, pattern, popcorn, saxhorn, western]} à pattern
+Solve : 
+pobj.motx.tme3.adapt.MotX@7ce69770
+Problème valide.
+Fixe var :index = 336, domaine = [ah, ai, an, as, au]} à ah
+Solve : 
+pobj.motx.tme3.adapt.MotX@1750fbeb
+Problème valide.
+Fixe var :index = 173, domaine = [bismuth, keffieh, poussah, talleth, turbith, yiddish]} à bismuth
+Solve : 
+pobj.motx.tme3.adapt.MotX@5b247367
+Problème valide.
+Fixe var :index = 358, domaine = [risotto]} à risotto
+Solve : 
+pobj.motx.tme3.adapt.MotX@268f106e
+Problème valide.
+Fixe var :index = 330, domaine = [abrupt, exempt, script]} à abrupt
+Solve : 
+pobj.motx.tme3.adapt.MotX@6e9a5ed8
+Problème valide.
+Fixe var :index = 155, domaine = [emiai, epiai, sciai, skiai, triai]} à emiai
+Solve : 
+pobj.motx.tme3.adapt.MotX@7e057f43
+Problème valide.
+Fixe var :index = 352, domaine = [alesent, amenent, etetent]} à alesent
+Solve : 
+pobj.motx.tme3.adapt.MotX@6c284af
+Problème valide.
+Fixe var :index = 148, domaine = [liberal, orbital]} à liberal
+Solve : 
+pobj.motx.tme3.adapt.MotX@5890e879
+Problème valide.
+Fixe var :index = 162, domaine = [nes]} à nes
+Solve : 
+pobj.motx.tme3.adapt.MotX@6440112d
+Problème valide.
+Fixe var :index = 144, domaine = [imams, trams]} à imams
+Solve : 
+pobj.motx.tme3.adapt.MotX@31ea9581
+Problème valide.
+Fixe var :index = 154, domaine = [aorte, ecrue, ourse]} à aorte
+Solve : 
+pobj.motx.tme3.adapt.MotX@231f98ef
+Problème valide.
+Fixe var :index = 143, domaine = [ha, ra]} à ha
+Solve : 
+pobj.motx.tme3.adapt.MotX@7c137fd5
+Problème valide.
+Fixe var :index = 319, domaine = [lac]} à lac
+Solve : 
+pobj.motx.tme3.adapt.MotX@183ec003
+Problème valide.
+Fixe var :index = 324, domaine = [melchior]} à melchior
+Solve : 
+pobj.motx.tme3.adapt.MotX@7d9d0818
+Problème valide.
+Fixe var :index = 161, domaine = [accru, decru, recru]} à accru
+Solve : 
+pobj.motx.tme3.adapt.MotX@221a3fa4
+Problème valide.
+Fixe var :index = 307, domaine = [maharani, pelotari, retroagi]} à maharani
+Solve : 
+pobj.motx.tme3.adapt.MotX@451001e5
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 307, domaine = [maharani, pelotari, retroagi]} à pelotari
+Solve : 
+pobj.motx.tme3.adapt.MotX@2b40ff9c
+Problème valide.
+Fixe var :index = 153, domaine = [et, ut]} à et
+Solve : 
+pobj.motx.tme3.adapt.MotX@3e08ff24
+Problème valide.
+Fixe var :index = 133, domaine = [medoc, rebec, repic, serac]} à medoc
+Solve : 
+pobj.motx.tme3.adapt.MotX@4d1c005e
+Problème valide.
+Fixe var :index = 318, domaine = [go]} à go
+Solve : 
+pobj.motx.tme3.adapt.MotX@8462f31
+Problème valide.
+Fixe var :index = 313, domaine = [de, dl, dm, do, du]} à de
+Solve : 
+pobj.motx.tme3.adapt.MotX@24569dba
+Problème valide.
+Fixe var :index = 124, domaine = [cantaloup, chienloup, motorship, pesesirop, sparadrap, videoclip]} à cantaloup
+Solve : 
+pobj.motx.tme3.adapt.MotX@5ddeb7cb
+Problème valide.
+Fixe var :index = 270, domaine = [na, ne, ni, no, nu]} à na
+Solve : 
+pobj.motx.tme3.adapt.MotX@70ed52de
+Problème valide.
+Fixe var :index = 166, domaine = [ara, are, ere, ira, ire, ure]} à ara
+Solve : 
+pobj.motx.tme3.adapt.MotX@496bc455
+Problème valide.
+Fixe var :index = 325, domaine = [une, uni, uns, ure, usa, use]} à une
+Solve : 
+pobj.motx.tme3.adapt.MotX@59402b8f
+Problème valide.
+Fixe var :index = 179, domaine = [con, eon, sen, son, tan, ton]} à con
+Solve : 
+pobj.motx.tme3.adapt.MotX@7188af83
+Problème valide.
+Fixe var :index = 300, domaine = [aumone, cumule, fumure, humide, jumele, numide, rumine]} à aumone
+Solve : 
+pobj.motx.tme3.adapt.MotX@6be968ce
+Problème valide.
+Fixe var :index = 147, domaine = [andantino]} à andantino
+Solve : 
+pobj.motx.tme3.adapt.MotX@7c37508a
+Problème valide.
+Fixe var :index = 142, domaine = [mole, pole, role, sole]} à mole
+Solve : 
+pobj.motx.tme3.adapt.MotX@247310d0
+Problème valide.
+Fixe var :index = 271, domaine = [de, dg, dl, dm, do, du]} à de
+Solve : 
+pobj.motx.tme3.adapt.MotX@1033576a
+Problème valide.
+Fixe var :index = 287, domaine = [ale, cle, fla, ile, ils, ole]} à ale
+Solve : 
+pobj.motx.tme3.adapt.MotX@303cf2ba
+Problème valide.
+Fixe var :index = 132, domaine = [alaire, araire, claire, oracle, ovaire]} à alaire
+Solve : 
+pobj.motx.tme3.adapt.MotX@76494737
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 132, domaine = [alaire, araire, claire, oracle, ovaire]} à araire
+Solve : 
+pobj.motx.tme3.adapt.MotX@4a003cbe
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 132, domaine = [alaire, araire, claire, oracle, ovaire]} à claire
+Solve : 
+pobj.motx.tme3.adapt.MotX@4082ba93
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 132, domaine = [alaire, araire, claire, oracle, ovaire]} à oracle
+Solve : 
+pobj.motx.tme3.adapt.MotX@17fc391b
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 132, domaine = [alaire, araire, claire, oracle, ovaire]} à ovaire
+Solve : 
+pobj.motx.tme3.adapt.MotX@2b30a42c
+Problème invalide.
+Essai valeur suivante.
+Backtrack sur variable index = 132, domaine = [alaire, araire, claire, oracle, ovaire]}
+Essai valeur suivante.
+Fixe var :index = 287, domaine = [ale, cle, fla, ile, ils, ole]} à cle
+Solve : 
+pobj.motx.tme3.adapt.MotX@609e8838
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 287, domaine = [ale, cle, fla, ile, ils, ole]} à fla
+Solve : 
+pobj.motx.tme3.adapt.MotX@359df09a
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 287, domaine = [ale, cle, fla, ile, ils, ole]} à ile
+Solve : 
+pobj.motx.tme3.adapt.MotX@43df23d3
+Problème valide.
+Fixe var :index = 132, domaine = [alaire, araire, claire, epacte, oracle, ovaire]} à alaire
+Solve : 
+pobj.motx.tme3.adapt.MotX@6d60fe40
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 132, domaine = [alaire, araire, claire, epacte, oracle, ovaire]} à araire
+Solve : 
+pobj.motx.tme3.adapt.MotX@792b749c
+Problème valide.
+Fixe var :index = 119, domaine = [ci, fi, mi, pi]} à ci
+Solve : 
+pobj.motx.tme3.adapt.MotX@23e84203
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 119, domaine = [ci, fi, mi, pi]} à fi
+Solve : 
+pobj.motx.tme3.adapt.MotX@19932c16
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 119, domaine = [ci, fi, mi, pi]} à mi
+Solve : 
+pobj.motx.tme3.adapt.MotX@73eb439a
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 119, domaine = [ci, fi, mi, pi]} à pi
+Solve : 
+pobj.motx.tme3.adapt.MotX@514646ef
+Problème valide.
+Fixe var :index = 160, domaine = [eh]} à eh
+Solve : 
+pobj.motx.tme3.adapt.MotX@305ffe9e
+Problème valide.
+Fixe var :index = 141, domaine = [se, te]} à se
+Solve : 
+pobj.motx.tme3.adapt.MotX@302c971f
+Problème valide.
+Fixe var :index = 276, domaine = [tisanes]} à tisanes
+Solve : 
+pobj.motx.tme3.adapt.MotX@1972e513
+Problème valide.
+Fixe var :index = 281, domaine = [parenthesee, parentheses]} à parenthesee
+Solve : 
+pobj.motx.tme3.adapt.MotX@7ae0a9ec
+Problème valide.
+Fixe var :index = 172, domaine = [sa, se, si, su]} à sa
+Solve : 
+pobj.motx.tme3.adapt.MotX@35841320
+Problème valide.
+Fixe var :index = 265, domaine = [amarine, clarine, guarani, tsarine]} à amarine
+Solve : 
+pobj.motx.tme3.adapt.MotX@61c4eee0
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 265, domaine = [amarine, clarine, guarani, tsarine]} à clarine
+Solve : 
+pobj.motx.tme3.adapt.MotX@6f10d5b6
+Problème valide.
+Fixe var :index = 113, domaine = [ace]} à ace
+Solve : 
+pobj.motx.tme3.adapt.MotX@1040be71
+Problème valide.
+Fixe var :index = 118, domaine = [cl]} à cl
+Solve : 
+pobj.motx.tme3.adapt.MotX@548a24a
+Problème valide.
+Fixe var :index = 140, domaine = [pi]} à pi
+Solve : 
+pobj.motx.tme3.adapt.MotX@433defed
+Problème valide.
+Fixe var :index = 152, domaine = [reent]} à reent
+Solve : 
+pobj.motx.tme3.adapt.MotX@2a693f59
+Problème valide.
+Fixe var :index = 258, domaine = [accaparai, accaparas, accaparat, accaparee, accaparer, accapares]} à accaparai
+Solve : 
+pobj.motx.tme3.adapt.MotX@3f4faf53
+Problème valide.
+Fixe var :index = 165, domaine = [irisee, iriser, irises, irisez]} à irisee
+Solve : 
+pobj.motx.tme3.adapt.MotX@7fd50002
+Problème valide.
+Fixe var :index = 178, domaine = [euro]} à euro
+Solve : 
+pobj.motx.tme3.adapt.MotX@533bda92
+Problème valide.
+Fixe var :index = 288, domaine = [eaudevie, eauforte]} à eaudevie
+Solve : 
+pobj.motx.tme3.adapt.MotX@304bb45b
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 288, domaine = [eaudevie, eauforte]} à eauforte
+Solve : 
+pobj.motx.tme3.adapt.MotX@723ca036
+Problème valide.
+Fixe var :index = 185, domaine = [relief]} à relief
+Solve : 
+pobj.motx.tme3.adapt.MotX@25be7b63
+Problème valide.
+Fixe var :index = 301, domaine = [aboli, abots, about]} à aboli
+Solve : 
+pobj.motx.tme3.adapt.MotX@28dcca0c
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 301, domaine = [aboli, abots, about]} à abots
+Solve : 
+pobj.motx.tme3.adapt.MotX@45d84a20
+Problème valide.
+Fixe var :index = 186, domaine = [trame]} à trame
+Solve : 
+pobj.motx.tme3.adapt.MotX@52f27fbd
+Problème valide.
+Fixe var :index = 194, domaine = [obsede]} à obsede
+Solve : 
+pobj.motx.tme3.adapt.MotX@4c163e3
+Problème valide.
+Fixe var :index = 320, domaine = [momes]} à momes
+Solve : 
+pobj.motx.tme3.adapt.MotX@4a8355dd
+Problème valide.
+Fixe var :index = 200, domaine = [ra, re, ri, ru]} à ra
+Solve : 
+pobj.motx.tme3.adapt.MotX@4d0d9fe7
+Problème valide.
+Fixe var :index = 180, domaine = [arts, bots, dots, lots, mots, pots, rots, sots]} à arts
+Solve : 
+pobj.motx.tme3.adapt.MotX@c430e6c
+Problème valide.
+Fixe var :index = 314, domaine = [cascadames, cascadasse, cascadates, cascaderai, cascaderas, cascaderez, cascadeurs, cascadeuse, cascadions]} à cascadames
+Solve : 
+pobj.motx.tme3.adapt.MotX@312aa7c
+Problème valide.
+Fixe var :index = 201, domaine = [nase]} à nase
+Solve : 
+pobj.motx.tme3.adapt.MotX@536f2a7e
+Problème valide.
+Fixe var :index = 208, domaine = [dm]} à dm
+Solve : 
+pobj.motx.tme3.adapt.MotX@72bc6553
+Problème valide.
+Fixe var :index = 308, domaine = [rendes, rendis, rendit, rendra, rendre, rendue, rendus]} à rendes
+Solve : 
+pobj.motx.tme3.adapt.MotX@66982506
+Problème valide.
+Fixe var :index = 212, domaine = [admonestee, analgesiee, compressee, conpressee, constellee, interessee, kilometree, manifestee, parametree, reintegree, telemetree]} à admonestee
+Solve : 
+pobj.motx.tme3.adapt.MotX@70cf32e3
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 212, domaine = [admonestee, analgesiee, compressee, conpressee, constellee, interessee, kilometree, manifestee, parametree, reintegree, telemetree]} à analgesiee
+Solve : 
+pobj.motx.tme3.adapt.MotX@5a59ca5e
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 212, domaine = [admonestee, analgesiee, compressee, conpressee, constellee, interessee, kilometree, manifestee, parametree, reintegree, telemetree]} à compressee
+Solve : 
+pobj.motx.tme3.adapt.MotX@4bdeaabb
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 212, domaine = [admonestee, analgesiee, compressee, conpressee, constellee, interessee, kilometree, manifestee, parametree, reintegree, telemetree]} à conpressee
+Solve : 
+pobj.motx.tme3.adapt.MotX@6c4906d3
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 212, domaine = [admonestee, analgesiee, compressee, conpressee, constellee, interessee, kilometree, manifestee, parametree, reintegree, telemetree]} à constellee
+Solve : 
+pobj.motx.tme3.adapt.MotX@65987993
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 212, domaine = [admonestee, analgesiee, compressee, conpressee, constellee, interessee, kilometree, manifestee, parametree, reintegree, telemetree]} à interessee
+Solve : 
+pobj.motx.tme3.adapt.MotX@71075444
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 212, domaine = [admonestee, analgesiee, compressee, conpressee, constellee, interessee, kilometree, manifestee, parametree, reintegree, telemetree]} à kilometree
+Solve : 
+pobj.motx.tme3.adapt.MotX@4f32a3ad
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 212, domaine = [admonestee, analgesiee, compressee, conpressee, constellee, interessee, kilometree, manifestee, parametree, reintegree, telemetree]} à manifestee
+Solve : 
+pobj.motx.tme3.adapt.MotX@6b695b06
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 212, domaine = [admonestee, analgesiee, compressee, conpressee, constellee, interessee, kilometree, manifestee, parametree, reintegree, telemetree]} à parametree
+Solve : 
+pobj.motx.tme3.adapt.MotX@4d1bf319
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 212, domaine = [admonestee, analgesiee, compressee, conpressee, constellee, interessee, kilometree, manifestee, parametree, reintegree, telemetree]} à reintegree
+Solve : 
+pobj.motx.tme3.adapt.MotX@6f53b8a
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 212, domaine = [admonestee, analgesiee, compressee, conpressee, constellee, interessee, kilometree, manifestee, parametree, reintegree, telemetree]} à telemetree
+Solve : 
+pobj.motx.tme3.adapt.MotX@5c80cf32
+Problème invalide.
+Essai valeur suivante.
+Backtrack sur variable index = 212, domaine = [admonestee, analgesiee, compressee, conpressee, constellee, interessee, kilometree, manifestee, parametree, reintegree, telemetree]}
+Essai valeur suivante.
+Fixe var :index = 308, domaine = [rendes, rendis, rendit, rendra, rendre, rendue, rendus]} à rendis
+Solve : 
+pobj.motx.tme3.adapt.MotX@7d900ecf
+Problème valide.
+Fixe var :index = 295, domaine = [bahuts, bastes]} à bahuts
+Solve : 
+pobj.motx.tme3.adapt.MotX@6f01b95f
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 295, domaine = [bahuts, bastes]} à bastes
+Solve : 
+pobj.motx.tme3.adapt.MotX@4007f65e
+Problème invalide.
+Essai valeur suivante.
+Backtrack sur variable index = 295, domaine = [bahuts, bastes]}
+Essai valeur suivante.
+Fixe var :index = 308, domaine = [rendes, rendis, rendit, rendra, rendre, rendue, rendus]} à rendit
+Solve : 
+pobj.motx.tme3.adapt.MotX@1a245833
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 308, domaine = [rendes, rendis, rendit, rendra, rendre, rendue, rendus]} à rendra
+Solve : 
+pobj.motx.tme3.adapt.MotX@673fdbce
+Problème valide.
+Fixe var :index = 347, domaine = [etirables, etiraient, etirasses, etirement, etirerais, etirerait, etirerent, etireriez, etirerons, etireront, etireuses]} à etirables
+Solve : 
+pobj.motx.tme3.adapt.MotX@5965d37
+Problème valide.
+Fixe var :index = 187, domaine = [ca, la, ma, na, ra, ta]} à ca
+Solve : 
+pobj.motx.tme3.adapt.MotX@7a5ceedd
+Problème valide.
+Fixe var :index = 195, domaine = [barbota]} à barbota
+Solve : 
+pobj.motx.tme3.adapt.MotX@4201c465
+Problème valide.
+Fixe var :index = 341, domaine = [acrete]} à acrete
+Solve : 
+pobj.motx.tme3.adapt.MotX@5b799640
+Problème valide.
+Fixe var :index = 202, domaine = [bel, sel]} à bel
+Solve : 
+pobj.motx.tme3.adapt.MotX@6cb107fd
+Problème valide.
+Fixe var :index = 209, domaine = [stenos, sterol]} à stenos
+Solve : 
+pobj.motx.tme3.adapt.MotX@710636b0
+Problème valide.
+Fixe var :index = 363, domaine = [baisotassent, baisotassiez, baisoterions, baissassions, baisseraient]} à baisotassent
+Solve : 
+pobj.motx.tme3.adapt.MotX@3de8f619
+Problème valide.
+Fixe var :index = 214, domaine = [oc, oh, on, or, os, ou]} à oc
+Solve : 
+pobj.motx.tme3.adapt.MotX@2ab4bc72
+Problème valide.
+Fixe var :index = 203, domaine = [tirage, tirais, tirait, tirant, tisais, tisait, tisane, tisant, titane, titans]} à tirage
+Solve : 
+pobj.motx.tme3.adapt.MotX@4e5ed836
+Problème valide.
+Fixe var :index = 380, domaine = [cg, kg, mg]} à cg
+Solve : 
+pobj.motx.tme3.adapt.MotX@eadd4fb
+Problème valide.
+Fixe var :index = 212, domaine = [claquemure, contredire, contremure, contretire, craquelure, demimesure, ecartelure, moucheture, peselettre, propreture, readmettre, sousoeuvre, telemesure]} à claquemure
+Solve : 
+pobj.motx.tme3.adapt.MotX@740fb309
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 212, domaine = [claquemure, contredire, contremure, contretire, craquelure, demimesure, ecartelure, moucheture, peselettre, propreture, readmettre, sousoeuvre, telemesure]} à contredire
+Solve : 
+pobj.motx.tme3.adapt.MotX@7bd7d6d6
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 212, domaine = [claquemure, contredire, contremure, contretire, craquelure, demimesure, ecartelure, moucheture, peselettre, propreture, readmettre, sousoeuvre, telemesure]} à contremure
+Solve : 
+pobj.motx.tme3.adapt.MotX@43f02ef2
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 212, domaine = [claquemure, contredire, contremure, contretire, craquelure, demimesure, ecartelure, moucheture, peselettre, propreture, readmettre, sousoeuvre, telemesure]} à contretire
+Solve : 
+pobj.motx.tme3.adapt.MotX@239a307b
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 212, domaine = [claquemure, contredire, contremure, contretire, craquelure, demimesure, ecartelure, moucheture, peselettre, propreture, readmettre, sousoeuvre, telemesure]} à craquelure
+Solve : 
+pobj.motx.tme3.adapt.MotX@2a8448fa
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 212, domaine = [claquemure, contredire, contremure, contretire, craquelure, demimesure, ecartelure, moucheture, peselettre, propreture, readmettre, sousoeuvre, telemesure]} à demimesure
+Solve : 
+pobj.motx.tme3.adapt.MotX@6f204a1a
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 212, domaine = [claquemure, contredire, contremure, contretire, craquelure, demimesure, ecartelure, moucheture, peselettre, propreture, readmettre, sousoeuvre, telemesure]} à ecartelure
+Solve : 
+pobj.motx.tme3.adapt.MotX@2de56eb2
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 212, domaine = [claquemure, contredire, contremure, contretire, craquelure, demimesure, ecartelure, moucheture, peselettre, propreture, readmettre, sousoeuvre, telemesure]} à moucheture
+Solve : 
+pobj.motx.tme3.adapt.MotX@5f8e8a9d
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 212, domaine = [claquemure, contredire, contremure, contretire, craquelure, demimesure, ecartelure, moucheture, peselettre, propreture, readmettre, sousoeuvre, telemesure]} à peselettre
+Solve : 
+pobj.motx.tme3.adapt.MotX@5745ca0e
+Problème valide.
+Fixe var :index = 219, domaine = [osasse]} à osasse
+Solve : 
+pobj.motx.tme3.adapt.MotX@3ad83a66
+Problème valide.
+Fixe var :index = 295, domaine = [bastos]} à bastos
+Solve : 
+pobj.motx.tme3.adapt.MotX@3cce5371
+Problème valide.
+Fixe var :index = 302, domaine = [tsars]} à tsars
+Solve : 
+pobj.motx.tme3.adapt.MotX@17bffc17
+Problème valide.
+Fixe var :index = 282, domaine = [cl, il]} à cl
+Solve : 
+pobj.motx.tme3.adapt.MotX@6e535154
+Problème valide.
+Fixe var :index = 207, domaine = [tracts]} à tracts
+Solve : 
+pobj.motx.tme3.adapt.MotX@15a34df2
+Problème valide.
+Fixe var :index = 218, domaine = [as, es, os, us]} à as
+Solve : 
+pobj.motx.tme3.adapt.MotX@5b38c1ec
+Problème valide.
+Fixe var :index = 272, domaine = [allers, clairs, flairs, fleurs]} à allers
+Solve : 
+pobj.motx.tme3.adapt.MotX@338fc1d8
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 272, domaine = [allers, clairs, flairs, fleurs]} à clairs
+Solve : 
+pobj.motx.tme3.adapt.MotX@4722ef0c
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 272, domaine = [allers, clairs, flairs, fleurs]} à flairs
+Solve : 
+pobj.motx.tme3.adapt.MotX@48e1f6c7
+Problème valide.
+Fixe var :index = 177, domaine = [off]} à off
+Solve : 
+pobj.motx.tme3.adapt.MotX@55cb6996
+Problème valide.
+Fixe var :index = 193, domaine = [ara]} à ara
+Solve : 
+pobj.motx.tme3.adapt.MotX@1807e3f6
+Problème valide.
+Fixe var :index = 199, domaine = [lai]} à lai
+Solve : 
+pobj.motx.tme3.adapt.MotX@480d3575
+Problème valide.
+Fixe var :index = 266, domaine = [referates]} à referates
+Solve : 
+pobj.motx.tme3.adapt.MotX@f1da57d
+Problème valide.
+Fixe var :index = 277, domaine = [aerais, aerait, aerant, aerees, aerent, aerera, aerien, aerons]} à aerais
+Solve : 
+pobj.motx.tme3.adapt.MotX@194fad1
+Problème valide.
+Fixe var :index = 234, domaine = [as, es, ms, os, us]} à as
+Solve : 
+pobj.motx.tme3.adapt.MotX@26abb146
+Problème valide.
+Fixe var :index = 289, domaine = [if, il, in, sa, se, si, su]} à if
+Solve : 
+pobj.motx.tme3.adapt.MotX@72c8e7b
+Problème valide.
+Fixe var :index = 224, domaine = [valisa]} à valisa
+Solve : 
+pobj.motx.tme3.adapt.MotX@65f8f5ae
+Problème valide.
+Fixe var :index = 229, domaine = [relief]} à relief
+Solve : 
+pobj.motx.tme3.adapt.MotX@431cd9b2
+Problème valide.
+Fixe var :index = 260, domaine = [pair]} à pair
+Solve : 
+pobj.motx.tme3.adapt.MotX@38467116
+Problème valide.
+Fixe var :index = 273, domaine = [vlan]} à vlan
+Solve : 
+pobj.motx.tme3.adapt.MotX@5b7a7f33
+Problème valide.
+Fixe var :index = 125, domaine = [glaca, glace, glana, glane, glapi, glass, glati, glebe, glene, globe, glome, glosa, glose, gluau, gluis, glume]} à glaca
+Solve : 
+pobj.motx.tme3.adapt.MotX@790da477
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 125, domaine = [glaca, glace, glana, glane, glapi, glass, glati, glebe, glene, globe, glome, glosa, glose, gluau, gluis, glume]} à glace
+Solve : 
+pobj.motx.tme3.adapt.MotX@5c7933ad
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 125, domaine = [glaca, glace, glana, glane, glapi, glass, glati, glebe, glene, globe, glome, glosa, glose, gluau, gluis, glume]} à glana
+Solve : 
+pobj.motx.tme3.adapt.MotX@57bc27f5
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 125, domaine = [glaca, glace, glana, glane, glapi, glass, glati, glebe, glene, globe, glome, glosa, glose, gluau, gluis, glume]} à glane
+Solve : 
+pobj.motx.tme3.adapt.MotX@5fb759d6
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 125, domaine = [glaca, glace, glana, glane, glapi, glass, glati, glebe, glene, globe, glome, glosa, glose, gluau, gluis, glume]} à glapi
+Solve : 
+pobj.motx.tme3.adapt.MotX@4b8d604b
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 125, domaine = [glaca, glace, glana, glane, glapi, glass, glati, glebe, glene, globe, glome, glosa, glose, gluau, gluis, glume]} à glass
+Solve : 
+pobj.motx.tme3.adapt.MotX@5e7cd6cc
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 125, domaine = [glaca, glace, glana, glane, glapi, glass, glati, glebe, glene, globe, glome, glosa, glose, gluau, gluis, glume]} à glati
+Solve : 
+pobj.motx.tme3.adapt.MotX@68c9d179
+Problème valide.
+Fixe var :index = 134, domaine = [as, es, os]} à as
+Solve : 
+pobj.motx.tme3.adapt.MotX@d554c5f
+Problème valide.
+Fixe var :index = 334, domaine = [sousalimenta]} à sousalimenta
+Solve : 
+pobj.motx.tme3.adapt.MotX@2dfaea86
+Problème valide.
+Fixe var :index = 107, domaine = [cm, dm]} à cm
+Solve : 
+pobj.motx.tme3.adapt.MotX@15888343
+Problème valide.
+Fixe var :index = 329, domaine = [arcs, once]} à arcs
+Solve : 
+pobj.motx.tme3.adapt.MotX@33ecda92
+Problème valide.
+Fixe var :index = 120, domaine = [nauseeux]} à nauseeux
+Solve : 
+pobj.motx.tme3.adapt.MotX@14fc5f04
+Problème valide.
+Fixe var :index = 340, domaine = [saisirent]} à saisirent
+Solve : 
+pobj.motx.tme3.adapt.MotX@6e2829c7
+Problème valide.
+Fixe var :index = 114, domaine = [clamses, cramses]} à clamses
+Solve : 
+pobj.motx.tme3.adapt.MotX@3feb2dda
+Problème valide.
+Fixe var :index = 306, domaine = [etc, roc]} à etc
+Solve : 
+pobj.motx.tme3.adapt.MotX@6a8658ff
+Problème valide.
+Fixe var :index = 94, domaine = [gal]} à gal
+Solve : 
+pobj.motx.tme3.adapt.MotX@1c742ed4
+Problème valide.
+Fixe var :index = 323, domaine = [go]} à go
+Solve : 
+pobj.motx.tme3.adapt.MotX@333d4a8c
+Problème valide.
+Fixe var :index = 100, domaine = [herborisateur, sensorimoteur, temporisateur]} à herborisateur
+Solve : 
+pobj.motx.tme3.adapt.MotX@55de24cc
+Problème valide.
+Fixe var :index = 312, domaine = [rala, rale, relu, role]} à rala
+Solve : 
+pobj.motx.tme3.adapt.MotX@dc7df28
+Problème valide.
+Fixe var :index = 366, domaine = [arbre, astre, autre, avare]} à arbre
+Solve : 
+pobj.motx.tme3.adapt.MotX@30f842ca
+Problème valide.
+Fixe var :index = 95, domaine = [lob, rob]} à lob
+Solve : 
+pobj.motx.tme3.adapt.MotX@69c81773
+Problème valide.
+Fixe var :index = 356, domaine = [alea]} à alea
+Solve : 
+pobj.motx.tme3.adapt.MotX@4d14b6c2
+Problème valide.
+Fixe var :index = 108, domaine = [phares, tiares]} à phares
+Solve : 
+pobj.motx.tme3.adapt.MotX@7e990ed7
+Problème valide.
+Fixe var :index = 351, domaine = [thes]} à thes
+Solve : 
+pobj.motx.tme3.adapt.MotX@c05fddc
+Problème valide.
+Fixe var :index = 345, domaine = [cap, gap]} à cap
+Solve : 
+pobj.motx.tme3.adapt.MotX@25df00a0
+Problème valide.
+Fixe var :index = 372, domaine = [saxons, sextes, sexuee, sexuel, sexues, sixain, sixtes]} à saxons
+Solve : 
+pobj.motx.tme3.adapt.MotX@4d15107f
+Problème valide.
+Fixe var :index = 127, domaine = [oc, oh, on, or, os]} à oc
+Solve : 
+pobj.motx.tme3.adapt.MotX@7b4c50bc
+Problème valide.
+Fixe var :index = 136, domaine = [na, ne, ni, no, nu]} à na
+Solve : 
+pobj.motx.tme3.adapt.MotX@5884a914
+Problème valide.
+Fixe var :index = 90, domaine = [abrasa, abrase, abrege, abrita, abrite, abroge, abrupt, abruti]} à abrasa
+Solve : 
+pobj.motx.tme3.adapt.MotX@50378a4
+Problème valide.
+Fixe var :index = 76, domaine = [ulcere, uniate, unisse, uretre, usagee, usante, usasse, usinee, usitee, uveite]} à ulcere
+Solve : 
+pobj.motx.tme3.adapt.MotX@60f00693
+Problème valide.
+Fixe var :index = 68, domaine = [oie, ois, ole, ont, ope, ors, oui, out]} à oie
+Solve : 
+pobj.motx.tme3.adapt.MotX@79207381
+Problème valide.
+Fixe var :index = 344, domaine = [incorrect, perithece]} à incorrect
+Solve : 
+pobj.motx.tme3.adapt.MotX@491b9b8
+Problème valide.
+Fixe var :index = 55, domaine = [or]} à or
+Solve : 
+pobj.motx.tme3.adapt.MotX@1a4927d6
+Problème valide.
+Fixe var :index = 63, domaine = [escrime]} à escrime
+Solve : 
+pobj.motx.tme3.adapt.MotX@7a6d7e92
+Problème valide.
+Fixe var :index = 82, domaine = [biset]} à biset
+Solve : 
+pobj.motx.tme3.adapt.MotX@aba625
+Problème valide.
+Fixe var :index = 339, domaine = [docile]} à docile
+Solve : 
+pobj.motx.tme3.adapt.MotX@97e93f1
+Problème valide.
+Fixe var :index = 355, domaine = [decimer, estimer, intimer]} à decimer
+Solve : 
+pobj.motx.tme3.adapt.MotX@5a5a729f
+Problème valide.
+Fixe var :index = 42, domaine = [cierge]} à cierge
+Solve : 
+pobj.motx.tme3.adapt.MotX@4b520ea8
+Problème valide.
+Fixe var :index = 49, domaine = [donc]} à donc
+Solve : 
+pobj.motx.tme3.adapt.MotX@16150369
+Problème valide.
+Fixe var :index = 365, domaine = [gre, gue]} à gre
+Solve : 
+pobj.motx.tme3.adapt.MotX@6b09fb41
+Problème valide.
+Fixe var :index = 35, domaine = [grenade, pignada, pignade, tornade]} à grenade
+Solve : 
+pobj.motx.tme3.adapt.MotX@624ea235
+Problème valide.
+Fixe var :index = 50, domaine = [ra, re, ri, ru]} à ra
+Solve : 
+pobj.motx.tme3.adapt.MotX@3932c79a
+Problème valide.
+Fixe var :index = 333, domaine = [ra, re, ri, ru]} à ra
+Solve : 
+pobj.motx.tme3.adapt.MotX@782859e
+Problème valide.
+Fixe var :index = 371, domaine = [alea, crea, grea, guea]} à alea
+Solve : 
+pobj.motx.tme3.adapt.MotX@23f5b5dc
+Problème valide.
+Fixe var :index = 36, domaine = [la, le, li, lu]} à la
+Solve : 
+pobj.motx.tme3.adapt.MotX@34bde49d
+Problème valide.
+Fixe var :index = 350, domaine = [africain, ecrivain, lointain, marocain, mexicain, naissain, nourrain, plantain, puritain, quatrain, suzerain, tibetain, trentain]} à africain
+Solve : 
+pobj.motx.tme3.adapt.MotX@1b1cfb87
+Problème valide.
+Fixe var :index = 29, domaine = [bic, fic, hic, pic, sic, tic]} à bic
+Solve : 
+pobj.motx.tme3.adapt.MotX@821330f
+Problème valide.
+Fixe var :index = 378, domaine = [caca, caid, cake, cala, cale, calf, calo, cals, came, camp, cana, cane, cape, caps, cati]} à caca
+Solve : 
+pobj.motx.tme3.adapt.MotX@6f43c82
+Problème valide.
+Fixe var :index = 309, domaine = [api, eau, epi, est, etc, ete, hai, han, hem, hep, heu, ope, osa, ose, ota, ote, usa, use]} à api
+Solve : 
+pobj.motx.tme3.adapt.MotX@5db6b9cd
+Problème valide.
+Fixe var :index = 235, domaine = [aspe]} à aspe
+Solve : 
+pobj.motx.tme3.adapt.MotX@210ab13f
+Problème valide.
+Fixe var :index = 296, domaine = [ah, ai, an, as, au]} à ah
+Solve : 
+pobj.motx.tme3.adapt.MotX@20b2475a
+Problème valide.
+Fixe var :index = 338, domaine = [acerbe, adoube, arrobe, cacabe, carabe, derobe, engobe, enrobe, entube, ephebe, imbibe, incube, inhibe, intube, plombe, scribe, teorbe, trombe]} à acerbe
+Solve : 
+pobj.motx.tme3.adapt.MotX@7857fe2
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 338, domaine = [acerbe, adoube, arrobe, cacabe, carabe, derobe, engobe, enrobe, entube, ephebe, imbibe, incube, inhibe, intube, plombe, scribe, teorbe, trombe]} à adoube
+Solve : 
+pobj.motx.tme3.adapt.MotX@6f15d60e
+Problème valide.
+Fixe var :index = 10, domaine = [defia, defie, defis, defit]} à defia
+Solve : 
+pobj.motx.tme3.adapt.MotX@1be2019a
+Problème valide.
+Fixe var :index = 343, domaine = [feu, jeu, lei, leu, peu]} à feu
+Solve : 
+pobj.motx.tme3.adapt.MotX@29d80d2b
+Problème valide.
+Fixe var :index = 3, domaine = [cafard]} à cafard
+Solve : 
+pobj.motx.tme3.adapt.MotX@58e1d9d
+Problème valide.
+Fixe var :index = 361, domaine = [dattier]} à dattier
+Solve : 
+pobj.motx.tme3.adapt.MotX@446a1e84
+Problème valide.
+Fixe var :index = 23, domaine = [inti, iota]} à inti
+Solve : 
+pobj.motx.tme3.adapt.MotX@4f0f2942
+Problème valide.
+Fixe var :index = 30, domaine = [inapte, isatis]} à inapte
+Solve : 
+pobj.motx.tme3.adapt.MotX@2657d4dd
+Problème valide.
+Fixe var :index = 364, domaine = [yin]} à yin
+Solve : 
+pobj.motx.tme3.adapt.MotX@5340477f
+Problème valide.
+Fixe var :index = 332, domaine = [go, ta]} à go
+Solve : 
+pobj.motx.tme3.adapt.MotX@47caedad
+Problème valide.
+Fixe var :index = 16, domaine = [ouigour]} à ouigour
+Solve : 
+pobj.motx.tme3.adapt.MotX@7139992f
+Problème valide.
+Fixe var :index = 9, domaine = [et, oc]} à et
+Solve : 
+pobj.motx.tme3.adapt.MotX@69504ae9
+Problème valide.
+Fixe var :index = 22, domaine = [froufrou]} à froufrou
+Solve : 
+pobj.motx.tme3.adapt.MotX@387a8303
+Problème valide.
+Fixe var :index = 316, domaine = [oui]} à oui
+Solve : 
+pobj.motx.tme3.adapt.MotX@28cda624
+Problème valide.
+Fixe var :index = 328, domaine = [tirage]} à tirage
+Solve : 
+pobj.motx.tme3.adapt.MotX@1500b2f3
+Problème valide.
+Fixe var :index = 321, domaine = [neufs, oeufs]} à neufs
+Solve : 
+pobj.motx.tme3.adapt.MotX@7eecb5b8
+Problème valide.
+Fixe var :index = 383, domaine = [et, ut]} à et
+Solve : 
+pobj.motx.tme3.adapt.MotX@126253fd
+Problème valide.
+Fixe var :index = 17, domaine = [typa, type, typo]} à typa
+Solve : 
+pobj.motx.tme3.adapt.MotX@57db2b13
+Problème valide.
+Fixe var :index = 11, domaine = [et, oc]} à et
+Solve : 
+pobj.motx.tme3.adapt.MotX@475c9c31
+Problème valide.
+Fixe var :index = 376, domaine = [etampa]} à etampa
+Solve : 
+pobj.motx.tme3.adapt.MotX@5c86a017
+Problème valide.
+Fixe var :index = 370, domaine = [cep, dep, hep, pep, sep]} à cep
+Solve : 
+pobj.motx.tme3.adapt.MotX@5c7bfdc1
+Problème valide.
+Fixe var :index = 28, domaine = [anisa, arisa, avisa, boisa, brisa, grisa, irisa, moisa, prisa, puisa, toisa]} à anisa
+Solve : 
+pobj.motx.tme3.adapt.MotX@5276d6ee
+Problème valide.
+Fixe var :index = 41, domaine = [attigea, deragea, derogea, enragea, enuclea, maugrea, ramagea]} à attigea
+Solve : 
+pobj.motx.tme3.adapt.MotX@71687585
+Problème valide.
+Fixe var :index = 311, domaine = [onctuosites]} à onctuosites
+Solve : 
+pobj.motx.tme3.adapt.MotX@1807f5a7
+Problème valide.
+Fixe var :index = 75, domaine = [et, ut]} à et
+Solve : 
+pobj.motx.tme3.adapt.MotX@1b919693
+Problème valide.
+Fixe var :index = 48, domaine = [une, uni, ure, usa, use]} à une
+Solve : 
+pobj.motx.tme3.adapt.MotX@7fb4f2a9
+Problème valide.
+Fixe var :index = 54, domaine = [saoul]} à saoul
+Solve : 
+pobj.motx.tme3.adapt.MotX@4dc27487
+Problème valide.
+Fixe var :index = 317, domaine = [inuit]} à inuit
+Solve : 
+pobj.motx.tme3.adapt.MotX@6a4f1a55
+Problème valide.
+Fixe var :index = 34, domaine = [bic, fic, pic, sic, tic]} à bic
+Solve : 
+pobj.motx.tme3.adapt.MotX@7dfd3c81
+Problème valide.
+Fixe var :index = 62, domaine = [choisi, grossi, transi]} à choisi
+Solve : 
+pobj.motx.tme3.adapt.MotX@2584b82d
+Problème valide.
+Fixe var :index = 298, domaine = [basson]} à basson
+Solve : 
+pobj.motx.tme3.adapt.MotX@7bbc8656
+Problème valide.
+Fixe var :index = 67, domaine = [bandits, lendits]} à bandits
+Solve : 
+pobj.motx.tme3.adapt.MotX@6933b6c6
+Problème valide.
+Fixe var :index = 285, domaine = [blancbec]} à blancbec
+Solve : 
+pobj.motx.tme3.adapt.MotX@7d3e8655
+Problème valide.
+Fixe var :index = 305, domaine = [aidees, aidera]} à aidees
+Solve : 
+pobj.motx.tme3.adapt.MotX@7dfb0c0f
+Problème valide.
+Fixe var :index = 40, domaine = [cl, dl, il]} à cl
+Solve : 
+pobj.motx.tme3.adapt.MotX@626abbd0
+Problème valide.
+Fixe var :index = 33, domaine = [baobab, radoub, toubib]} à baobab
+Solve : 
+pobj.motx.tme3.adapt.MotX@169bb4dd
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 33, domaine = [baobab, radoub, toubib]} à radoub
+Solve : 
+pobj.motx.tme3.adapt.MotX@1f9e9475
+Problème valide.
+Fixe var :index = 47, domaine = [hais, rais, rats]} à hais
+Solve : 
+pobj.motx.tme3.adapt.MotX@3aa078fd
+Problème valide.
+Fixe var :index = 278, domaine = [cartouche, chevaucha, chevauche, piedouche, tarbouche, trucmuche]} à cartouche
+Solve : 
+pobj.motx.tme3.adapt.MotX@d23e042
+Problème valide.
+Fixe var :index = 27, domaine = [do, go]} à do
+Solve : 
+pobj.motx.tme3.adapt.MotX@46d59067
+Problème valide.
+Fixe var :index = 1, domaine = [ace, ecu]} à ace
+Solve : 
+pobj.motx.tme3.adapt.MotX@2d0399f4
+Problème valide.
+Fixe var :index = 274, domaine = [albedo]} à albedo
+Solve : 
+pobj.motx.tme3.adapt.MotX@14dd7b39
+Problème valide.
+Fixe var :index = 21, domaine = [cet, jet, let, met, net, set, vet]} à cet
+Solve : 
+pobj.motx.tme3.adapt.MotX@66ea810
+Problème valide.
+Fixe var :index = 53, domaine = [amen, aven, bien, eden, lien, mien, open, rien, sien, tien]} à amen
+Solve : 
+pobj.motx.tme3.adapt.MotX@6cd24612
+Problème valide.
+Fixe var :index = 81, domaine = [anglicisee, barricadee, detricotee, ensorcelee, explicitee, hallucinee, handicapee, incarceree, intercalee, massicotee, ostracisee, rapiecetee, resarcelee, retrocedee, sollicitee, surexcitee, telescopee, traficotee, transcodee]} à anglicisee
+Solve : 
+pobj.motx.tme3.adapt.MotX@5dafbe45
+Problème valide.
+Fixe var :index = 279, domaine = [li]} à li
+Solve : 
+pobj.motx.tme3.adapt.MotX@2254127a
+Problème valide.
+Fixe var :index = 74, domaine = [anglet, onglet]} à anglet
+Solve : 
+pobj.motx.tme3.adapt.MotX@51891008
+Problème valide.
+Fixe var :index = 268, domaine = [fading, hareng]} à fading
+Solve : 
+pobj.motx.tme3.adapt.MotX@2f953efd
+Problème valide.
+Fixe var :index = 61, domaine = [lad]} à lad
+Solve : 
+pobj.motx.tme3.adapt.MotX@f68f0dc
+Problème valide.
+Fixe var :index = 66, domaine = [ami]} à ami
+Solve : 
+pobj.motx.tme3.adapt.MotX@d2de489
+Problème valide.
+Fixe var :index = 264, domaine = [amant]} à amant
+Solve : 
+pobj.motx.tme3.adapt.MotX@14bdbc74
+Problème valide.
+Fixe var :index = 88, domaine = [et, ut]} à et
+Solve : 
+pobj.motx.tme3.adapt.MotX@12591ac8
+Problème valide.
+Fixe var :index = 257, domaine = [aede, aera, aere]} à aede
+Solve : 
+pobj.motx.tme3.adapt.MotX@5a7fe64f
+Problème valide.
+Fixe var :index = 292, domaine = [hatier, hatifs, hative]} à hatier
+Solve : 
+pobj.motx.tme3.adapt.MotX@38145825
+Problème valide.
+Fixe var :index = 89, domaine = [eusse]} à eusse
+Solve : 
+pobj.motx.tme3.adapt.MotX@41330d4f
+Problème valide.
+Fixe var :index = 299, domaine = [sushi]} à sushi
+Solve : 
+pobj.motx.tme3.adapt.MotX@1b66c0fb
+Problème valide.
+Fixe var :index = 106, domaine = [bita, cita, gita, lita, mita]} à bita
+Solve : 
+pobj.motx.tme3.adapt.MotX@3e0e1046
+Problème valide.
+Fixe var :index = 293, domaine = [bu]} à bu
+Solve : 
+pobj.motx.tme3.adapt.MotX@24c1b2d2
+Problème valide.
+Fixe var :index = 46, domaine = [kif, nef, nif, paf, pif, ref, tif, vif]} à kif
+Solve : 
+pobj.motx.tme3.adapt.MotX@7dc19a70
+Problème valide.
+Fixe var :index = 263, domaine = [agi, ami, api]} à agi
+Solve : 
+pobj.motx.tme3.adapt.MotX@508dec2b
+Problème valide.
+Fixe var :index = 24, domaine = [mecs, mede, megi, mela, mele, melo, meme, mena, mene, mens, ment, menu, mere, mers, mesa, mess, meta, mets, meus, meut]} à mecs
+Solve : 
+pobj.motx.tme3.adapt.MotX@1e4f4a5c
+Problème valide.
+Fixe var :index = 286, domaine = [ai, an, as, au, en, es, et, eu, ex, if, il, in, oc, on, or, os, ou, un, us, ut]} à ai
+Solve : 
+pobj.motx.tme3.adapt.MotX@37313c65
+Problème valide.
+Fixe var :index = 93, domaine = [dinars, douars, mimars, nanars, oscars, polars, radars, sitars, sonars]} à dinars
+Solve : 
+pobj.motx.tme3.adapt.MotX@465232e9
+Problème valide.
+Fixe var :index = 280, domaine = [na]} à na
+Solve : 
+pobj.motx.tme3.adapt.MotX@798162bc
+Problème valide.
+Fixe var :index = 275, domaine = [glaira, glaire, glaisa, glaise, glaive, gloire]} à glaira
+Solve : 
+pobj.motx.tme3.adapt.MotX@1df8da7a
+Problème valide.
+Fixe var :index = 99, domaine = [ecorai, ecurai, egarai, elirai, epurai, etirai]} à ecorai
+Solve : 
+pobj.motx.tme3.adapt.MotX@23941fb4
+Problème valide.
+Fixe var :index = 105, domaine = [la, ma, ra, sa, ta]} à la
+Solve : 
+pobj.motx.tme3.adapt.MotX@7486b455
+Problème valide.
+Fixe var :index = 220, domaine = [atil, aton, atre, etai, etal, etat, etau, etes, etoc, etre, etui, item, itou, otai, otas, otat, otee, oter, otes, otez, star, stem, stop, stuc]} à atil
+Solve : 
+pobj.motx.tme3.adapt.MotX@660acfb
+Problème valide.
+Fixe var :index = 359, domaine = [ace, age, agi, ale, ame, ami, ana, ane, ans, api, ara, are, ars, ave]} à ace
+Solve : 
+pobj.motx.tme3.adapt.MotX@5d908d47
+Problème valide.
+Fixe var :index = 369, domaine = [cigit, cigue, cilie, cirai, cirat, ciree, ciron, ciste, citai, citat, citee, civet, civil]} à cigit
+Solve : 
+pobj.motx.tme3.adapt.MotX@5efa40fe
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 369, domaine = [cigit, cigue, cilie, cirai, cirat, ciree, ciron, ciste, citai, citat, citee, civet, civil]} à cigue
+Solve : 
+pobj.motx.tme3.adapt.MotX@1f9f6368
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 369, domaine = [cigit, cigue, cilie, cirai, cirat, ciree, ciron, ciste, citai, citat, citee, civet, civil]} à cilie
+Solve : 
+pobj.motx.tme3.adapt.MotX@1c9b0314
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 369, domaine = [cigit, cigue, cilie, cirai, cirat, ciree, ciron, ciste, citai, citat, citee, civet, civil]} à cirai
+Solve : 
+pobj.motx.tme3.adapt.MotX@45385f75
+Problème valide.
+Fixe var :index = 348, domaine = [etc, ete, ope, ota, ote]} à etc
+Solve : 
+pobj.motx.tme3.adapt.MotX@49c90a9c
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 348, domaine = [etc, ete, ope, ota, ote]} à ete
+Solve : 
+pobj.motx.tme3.adapt.MotX@2d29b4ee
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 348, domaine = [etc, ete, ope, ota, ote]} à ope
+Solve : 
+pobj.motx.tme3.adapt.MotX@69ee81fc
+Problème valide.
+Fixe var :index = 237, domaine = [eh, eu]} à eh
+Solve : 
+pobj.motx.tme3.adapt.MotX@6e2aa843
+Problème valide.
+Fixe var :index = 353, domaine = [rhuma, rhume, rhums]} à rhuma
+Solve : 
+pobj.motx.tme3.adapt.MotX@6f36c2f0
+Problème valide.
+Fixe var :index = 231, domaine = [presageassent, presageassiez, presageraient, presanctifiee, presanctifies]} à presageassent
+Solve : 
+pobj.motx.tme3.adapt.MotX@f58853c
+Problème valide.
+Fixe var :index = 392, domaine = [as, es, os, us]} à as
+Solve : 
+pobj.motx.tme3.adapt.MotX@1224144a
+Problème valide.
+Fixe var :index = 238, domaine = [siens, sises]} à siens
+Solve : 
+pobj.motx.tme3.adapt.MotX@29f7cefd
+Problème valide.
+Fixe var :index = 374, domaine = [lege]} à lege
+Solve : 
+pobj.motx.tme3.adapt.MotX@700fb871
+Problème valide.
+Fixe var :index = 381, domaine = [sen]} à sen
+Solve : 
+pobj.motx.tme3.adapt.MotX@3b35a229
+Problème valide.
+Fixe var :index = 226, domaine = [caressai, caressas, caressat]} à caressai
+Solve : 
+pobj.motx.tme3.adapt.MotX@9816741
+Problème valide.
+Fixe var :index = 360, domaine = [ai, an, en, in, on]} à ai
+Solve : 
+pobj.motx.tme3.adapt.MotX@1e16c0aa
+Problème valide.
+Fixe var :index = 213, domaine = [aloes]} à aloes
+Solve : 
+pobj.motx.tme3.adapt.MotX@13d73f29
+Problème valide.
+Fixe var :index = 225, domaine = [dru]} à dru
+Solve : 
+pobj.motx.tme3.adapt.MotX@565f390
+Problème valide.
+Fixe var :index = 236, domaine = [do]} à do
+Solve : 
+pobj.motx.tme3.adapt.MotX@7dc3712
+Problème valide.
+Fixe var :index = 326, domaine = [aede]} à aede
+Solve : 
+pobj.motx.tme3.adapt.MotX@2f67a4d3
+Problème valide.
+Fixe var :index = 331, domaine = [rada]} à rada
+Solve : 
+pobj.motx.tme3.adapt.MotX@5e3f861
+Problème valide.
+Fixe var :index = 337, domaine = [absolutoire]} à absolutoire
+Solve : 
+pobj.motx.tme3.adapt.MotX@2fb0623e
+Problème valide.
+Fixe var :index = 386, domaine = [desastre]} à desastre
+Solve : 
+pobj.motx.tme3.adapt.MotX@49b2a47d
+Problème valide.
+Fixe var :index = 230, domaine = [ragreat, rangeat]} à ragreat
+Solve : 
+pobj.motx.tme3.adapt.MotX@5be1d0a4
+Problème valide.
+Fixe var :index = 349, domaine = [ms, mu]} à ms
+Solve : 
+pobj.motx.tme3.adapt.MotX@415b0b49
+Problème valide.
+Fixe var :index = 315, domaine = [gemi, gera, gere]} à gemi
+Solve : 
+pobj.motx.tme3.adapt.MotX@6d5620ce
+Problème valide.
+Fixe var :index = 243, domaine = [imitais, imitait]} à imitais
+Solve : 
+pobj.motx.tme3.adapt.MotX@311bf055
+Problème valide.
+Fixe var :index = 342, domaine = [sen, ses]} à sen
+Solve : 
+pobj.motx.tme3.adapt.MotX@642a7222
+Problème valide.
+Fixe var :index = 375, domaine = [ha, he, ho]} à ha
+Solve : 
+pobj.motx.tme3.adapt.MotX@7d322cad
+Problème valide.
+Fixe var :index = 253, domaine = [ane, axe]} à ane
+Solve : 
+pobj.motx.tme3.adapt.MotX@21be3395
+Problème valide.
+Fixe var :index = 382, domaine = [en]} à en
+Solve : 
+pobj.motx.tme3.adapt.MotX@4f49f6af
+Problème valide.
+Fixe var :index = 248, domaine = [remmancherais, remmancherait, remmancherent, remmancherons, remmancheront]} à remmancherais
+Solve : 
+pobj.motx.tme3.adapt.MotX@78452606
+Problème valide.
+Fixe var :index = 393, domaine = [ha, ra]} à ha
+Solve : 
+pobj.motx.tme3.adapt.MotX@147e2ae7
+Problème valide.
+Fixe var :index = 400, domaine = [epissoir, maiserie]} à epissoir
+Solve : 
+pobj.motx.tme3.adapt.MotX@448c8166
+Problème valide.
+Fixe var :index = 244, domaine = [thonaires]} à thonaires
+Solve : 
+pobj.motx.tme3.adapt.MotX@4470fbd6
+Problème valide.
+Fixe var :index = 409, domaine = [eons]} à eons
+Solve : 
+pobj.motx.tme3.adapt.MotX@15d49048
+Problème valide.
+Fixe var :index = 414, domaine = [nia]} à nia
+Solve : 
+pobj.motx.tme3.adapt.MotX@7098b907
+Problème valide.
+Fixe var :index = 239, domaine = [soif, soir, soit]} à soif
+Solve : 
+pobj.motx.tme3.adapt.MotX@503f91c3
+Problème valide.
+Fixe var :index = 419, domaine = [petitfils]} à petitfils
+Solve : 
+pobj.motx.tme3.adapt.MotX@13526e59
+Problème valide.
+Fixe var :index = 252, domaine = [depensait, encensait, offensait, recensait, repensait]} à depensait
+Solve : 
+pobj.motx.tme3.adapt.MotX@2235eaab
+Problème valide.
+Fixe var :index = 327, domaine = [tee, the, tue]} à tee
+Solve : 
+pobj.motx.tme3.adapt.MotX@17503f6b
+Problème valide.
+Fixe var :index = 413, domaine = [il, in, le, li, se, si, te, un, us, ut]} à il
+Solve : 
+pobj.motx.tme3.adapt.MotX@3bcd05cb
+Problème valide.
+Fixe var :index = 215, domaine = [adheriez]} à adheriez
+Solve : 
+pobj.motx.tme3.adapt.MotX@3b6d844d
+Problème valide.
+Fixe var :index = 408, domaine = [re]} à re
+Solve : 
+pobj.motx.tme3.adapt.MotX@36804139
+Problème valide.
+Fixe var :index = 221, domaine = [pelta, pelte]} à pelta
+Solve : 
+pobj.motx.tme3.adapt.MotX@20bd8be5
+Problème valide.
+Fixe var :index = 425, domaine = [alezan, balzan, falzar, tarzan]} à alezan
+Solve : 
+pobj.motx.tme3.adapt.MotX@730d2164
+Problème valide.
+Fixe var :index = 210, domaine = [pep, peu]} à pep
+Solve : 
+pobj.motx.tme3.adapt.MotX@24959ca4
+Problème valide.
+Fixe var :index = 432, domaine = [gallup, holdup, pickup, turnep]} à gallup
+Solve : 
+pobj.motx.tme3.adapt.MotX@10289886
+Problème valide.
+Fixe var :index = 205, domaine = [lues, luis, luit, lulu, lune, luta, lute, luth, luxa, luxe]} à lues
+Solve : 
+pobj.motx.tme3.adapt.MotX@5c86dbc5
+Problème valide.
+Fixe var :index = 426, domaine = [rai, ras, rat, rea, ree, ria, rie, ris, rit, rob, roc, roi, rot, rua, rue, rus, rut]} à rai
+Solve : 
+pobj.motx.tme3.adapt.MotX@461ad730
+Problème valide.
+Fixe var :index = 254, domaine = [osiericultures]} à osiericultures
+Solve : 
+pobj.motx.tme3.adapt.MotX@4ee203eb
+Problème valide.
+Fixe var :index = 249, domaine = [lac, lad, las, lat]} à lac
+Solve : 
+pobj.motx.tme3.adapt.MotX@1a5a4e19
+Problème valide.
+Fixe var :index = 433, domaine = [depece, espece]} à depece
+Solve : 
+pobj.motx.tme3.adapt.MotX@7068e664
+Problème valide.
+Fixe var :index = 491, domaine = [ce, de, le, me, ne, re, se, te]} à ce
+Solve : 
+pobj.motx.tme3.adapt.MotX@60db1c0e
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 491, domaine = [ce, de, le, me, ne, re, se, te]} à de
+Solve : 
+pobj.motx.tme3.adapt.MotX@3e78b6a5
+Problème valide.
+Fixe var :index = 477, domaine = [contrebattu, contreecrou, contrefoutu]} à contrebattu
+Solve : 
+pobj.motx.tme3.adapt.MotX@769a1df5
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 477, domaine = [contrebattu, contreecrou, contrefoutu]} à contreecrou
+Solve : 
+pobj.motx.tme3.adapt.MotX@41f69e84
+Problème valide.
+Fixe var :index = 484, domaine = [air, sir, tir]} à air
+Solve : 
+pobj.motx.tme3.adapt.MotX@7975d1d8
+Problème valide.
+Fixe var :index = 223, domaine = [ra, re, ri, ru]} à ra
+Solve : 
+pobj.motx.tme3.adapt.MotX@2438dcd
+Problème valide.
+Fixe var :index = 446, domaine = [ai, hi, pi, si]} à ai
+Solve : 
+pobj.motx.tme3.adapt.MotX@24105dc5
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 446, domaine = [ai, hi, pi, si]} à hi
+Solve : 
+pobj.motx.tme3.adapt.MotX@5167f57d
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 446, domaine = [ai, hi, pi, si]} à pi
+Solve : 
+pobj.motx.tme3.adapt.MotX@64b0598
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 446, domaine = [ai, hi, pi, si]} à si
+Solve : 
+pobj.motx.tme3.adapt.MotX@18f8cd79
+Problème invalide.
+Essai valeur suivante.
+Backtrack sur variable index = 446, domaine = [ai, hi, pi, si]}
+Essai valeur suivante.
+Fixe var :index = 223, domaine = [ra, re, ri, ru]} à re
+Solve : 
+pobj.motx.tme3.adapt.MotX@3e2055d6
+Problème valide.
+Fixe var :index = 446, domaine = [ai, hi, pi, si]} à ai
+Solve : 
+pobj.motx.tme3.adapt.MotX@50029372
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 446, domaine = [ai, hi, pi, si]} à hi
+Solve : 
+pobj.motx.tme3.adapt.MotX@e3b3b2f
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 446, domaine = [ai, hi, pi, si]} à pi
+Solve : 
+pobj.motx.tme3.adapt.MotX@50f6ac94
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 446, domaine = [ai, hi, pi, si]} à si
+Solve : 
+pobj.motx.tme3.adapt.MotX@6cc4cdb9
+Problème invalide.
+Essai valeur suivante.
+Backtrack sur variable index = 446, domaine = [ai, hi, pi, si]}
+Essai valeur suivante.
+Fixe var :index = 223, domaine = [ra, re, ri, ru]} à ri
+Solve : 
+pobj.motx.tme3.adapt.MotX@28194a50
+Problème valide.
+Fixe var :index = 446, domaine = [ai, hi, pi, si]} à ai
+Solve : 
+pobj.motx.tme3.adapt.MotX@7f2cfe3f
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 446, domaine = [ai, hi, pi, si]} à hi
+Solve : 
+pobj.motx.tme3.adapt.MotX@1a5b6f42
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 446, domaine = [ai, hi, pi, si]} à pi
+Solve : 
+pobj.motx.tme3.adapt.MotX@5038d0b5
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 446, domaine = [ai, hi, pi, si]} à si
+Solve : 
+pobj.motx.tme3.adapt.MotX@32115b28
+Problème invalide.
+Essai valeur suivante.
+Backtrack sur variable index = 446, domaine = [ai, hi, pi, si]}
+Essai valeur suivante.
+Fixe var :index = 223, domaine = [ra, re, ri, ru]} à ru
+Solve : 
+pobj.motx.tme3.adapt.MotX@2ad48653
+Problème valide.
+Fixe var :index = 446, domaine = [ai, hi, pi, si]} à ai
+Solve : 
+pobj.motx.tme3.adapt.MotX@6bb4dd34
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 446, domaine = [ai, hi, pi, si]} à hi
+Solve : 
+pobj.motx.tme3.adapt.MotX@7d9f158f
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 446, domaine = [ai, hi, pi, si]} à pi
+Solve : 
+pobj.motx.tme3.adapt.MotX@45efd90f
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 446, domaine = [ai, hi, pi, si]} à si
+Solve : 
+pobj.motx.tme3.adapt.MotX@4b8729ff
+Problème invalide.
+Essai valeur suivante.
+Backtrack sur variable index = 446, domaine = [ai, hi, pi, si]}
+Essai valeur suivante.
+Backtrack sur variable index = 223, domaine = [ra, re, ri, ru]}
+Essai valeur suivante.
+Fixe var :index = 484, domaine = [air, sir, tir]} à sir
+Solve : 
+pobj.motx.tme3.adapt.MotX@61710c6
+Problème valide.
+Fixe var :index = 446, domaine = [pi, si]} à pi
+Solve : 
+pobj.motx.tme3.adapt.MotX@3214ee6
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 446, domaine = [pi, si]} à si
+Solve : 
+pobj.motx.tme3.adapt.MotX@383dc82c
+Problème invalide.
+Essai valeur suivante.
+Backtrack sur variable index = 446, domaine = [pi, si]}
+Essai valeur suivante.
+Fixe var :index = 484, domaine = [air, sir, tir]} à tir
+Solve : 
+pobj.motx.tme3.adapt.MotX@4a07d605
+Problème valide.
+Fixe var :index = 446, domaine = [pi, si]} à pi
+Solve : 
+pobj.motx.tme3.adapt.MotX@74287ea3
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 446, domaine = [pi, si]} à si
+Solve : 
+pobj.motx.tme3.adapt.MotX@7d7758be
+Problème invalide.
+Essai valeur suivante.
+Backtrack sur variable index = 446, domaine = [pi, si]}
+Essai valeur suivante.
+Backtrack sur variable index = 484, domaine = [air, sir, tir]}
+Essai valeur suivante.
+Fixe var :index = 477, domaine = [contrebattu, contreecrou, contrefoutu]} à contrefoutu
+Solve : 
+pobj.motx.tme3.adapt.MotX@2bdd8394
+Problème valide.
+Fixe var :index = 250, domaine = [haliotide]} à haliotide
+Solve : 
+pobj.motx.tme3.adapt.MotX@5f9edf14
+Problème valide.
+Fixe var :index = 457, domaine = [reelu]} à reelu
+Solve : 
+pobj.motx.tme3.adapt.MotX@68746f22
+Problème valide.
+Fixe var :index = 451, domaine = [crac, trac]} à crac
+Solve : 
+pobj.motx.tme3.adapt.MotX@2f01783a
+Problème valide.
+Fixe var :index = 464, domaine = [cil, fil, sil]} à cil
+Solve : 
+pobj.motx.tme3.adapt.MotX@68878f6d
+Problème valide.
+Fixe var :index = 472, domaine = [lot, rot, tot]} à lot
+Solve : 
+pobj.motx.tme3.adapt.MotX@41488b16
+Problème valide.
+Fixe var :index = 245, domaine = [reclus]} à reclus
+Solve : 
+pobj.motx.tme3.adapt.MotX@a8ef162
+Problème valide.
+Fixe var :index = 223, domaine = [ra, re, ri, ru]} à ra
+Solve : 
+pobj.motx.tme3.adapt.MotX@2eea88a1
+Problème valide.
+Fixe var :index = 240, domaine = [parce, perce, piece, pince]} à parce
+Solve : 
+pobj.motx.tme3.adapt.MotX@7ac296f6
+Problème valide.
+Fixe var :index = 227, domaine = [indium, indole, indult]} à indium
+Solve : 
+pobj.motx.tme3.adapt.MotX@7fd7a283
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 227, domaine = [indium, indole, indult]} à indole
+Solve : 
+pobj.motx.tme3.adapt.MotX@22f59fa
+Problème valide.
+Fixe var :index = 232, domaine = [ete]} à ete
+Solve : 
+pobj.motx.tme3.adapt.MotX@78fa769e
+Problème valide.
+Fixe var :index = 222, domaine = [le, li, lu]} à le
+Solve : 
+pobj.motx.tme3.adapt.MotX@16612a51
+Problème valide.
+Fixe var :index = 445, domaine = [accastiller, embastiller, emoustiller, reinstaller]} à accastiller
+Solve : 
+pobj.motx.tme3.adapt.MotX@54e041a4
+Problème valide.
+Fixe var :index = 483, domaine = [agi, ail, ami, api]} à agi
+Solve : 
+pobj.motx.tme3.adapt.MotX@2c78324b
+Problème valide.
+Fixe var :index = 471, domaine = [if, in, li, ni, ri, un]} à if
+Solve : 
+pobj.motx.tme3.adapt.MotX@79defdc
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 471, domaine = [if, in, li, ni, ri, un]} à in
+Solve : 
+pobj.motx.tme3.adapt.MotX@18317edc
+Problème valide.
+Fixe var :index = 490, domaine = [elu]} à elu
+Solve : 
+pobj.motx.tme3.adapt.MotX@4e0ae11f
+Problème valide.
+Fixe var :index = 233, domaine = [renfila, renfile]} à renfila
+Solve : 
+pobj.motx.tme3.adapt.MotX@238d68ff
+Problème valide.
+Fixe var :index = 241, domaine = [un, us]} à un
+Solve : 
+pobj.motx.tme3.adapt.MotX@4b86805d
+Problème valide.
+Fixe var :index = 228, domaine = [liegee, lieger, lieges, piegee, pieger, pieges, sieger, sieges]} à liegee
+Solve : 
+pobj.motx.tme3.adapt.MotX@5852c06f
+Problème valide.
+Fixe var :index = 497, domaine = [decheances, exigeantes, faineantes, malseantes, mecreantes]} à decheances
+Solve : 
+pobj.motx.tme3.adapt.MotX@4149c063
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 497, domaine = [decheances, exigeantes, faineantes, malseantes, mecreantes]} à exigeantes
+Solve : 
+pobj.motx.tme3.adapt.MotX@9cb8225
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 497, domaine = [decheances, exigeantes, faineantes, malseantes, mecreantes]} à faineantes
+Solve : 
+pobj.motx.tme3.adapt.MotX@76b07f29
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 497, domaine = [decheances, exigeantes, faineantes, malseantes, mecreantes]} à malseantes
+Solve : 
+pobj.motx.tme3.adapt.MotX@38af9828
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 497, domaine = [decheances, exigeantes, faineantes, malseantes, mecreantes]} à mecreantes
+Solve : 
+pobj.motx.tme3.adapt.MotX@376a0d86
+Problème invalide.
+Essai valeur suivante.
+Backtrack sur variable index = 497, domaine = [decheances, exigeantes, faineantes, malseantes, mecreantes]}
+Essai valeur suivante.
+Fixe var :index = 228, domaine = [liegee, lieger, lieges, piegee, pieger, pieges, sieger, sieges]} à lieger
+Solve : 
+pobj.motx.tme3.adapt.MotX@62656be4
+Problème valide.
+Fixe var :index = 183, domaine = [ca, cc, ce, cf, cg, ch, ci, cl, cm]} à ca
+Solve : 
+pobj.motx.tme3.adapt.MotX@17d919b6
+Problème valide.
+Fixe var :index = 450, domaine = [agee, axee, epee, huee, idee, oree, osee, otee, ruee]} à agee
+Solve : 
+pobj.motx.tme3.adapt.MotX@53f3bdbd
+Problème valide.
+Fixe var :index = 216, domaine = [digon, figea, figer, ligua, pigea, piger, zigua]} à digon
+Solve : 
+pobj.motx.tme3.adapt.MotX@34129c78
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 216, domaine = [digon, figea, figer, ligua, pigea, piger, zigua]} à figea
+Solve : 
+pobj.motx.tme3.adapt.MotX@7d61eb55
+Problème valide.
+Fixe var :index = 497, domaine = [assurances, attirances, attirantes, rearranges, rentrantes, saturantes]} à assurances
+Solve : 
+pobj.motx.tme3.adapt.MotX@222a59e6
+Problème valide.
+Fixe var :index = 217, domaine = [as, es, ms, os, us]} à as
+Solve : 
+pobj.motx.tme3.adapt.MotX@6c7a164b
+Problème valide.
+Fixe var :index = 211, domaine = [tachantes, tamponnes, tantinets, tartinais, tartinees]} à tachantes
+Solve : 
+pobj.motx.tme3.adapt.MotX@4c2bb6e0
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 211, domaine = [tachantes, tamponnes, tantinets, tartinais, tartinees]} à tamponnes
+Solve : 
+pobj.motx.tme3.adapt.MotX@3e62d773
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 211, domaine = [tachantes, tamponnes, tantinets, tartinais, tartinees]} à tantinets
+Solve : 
+pobj.motx.tme3.adapt.MotX@4ef74c30
+Problème invalide.
+Essai valeur suivante.
+Fixe var :index = 211, domaine = [tachantes, tamponnes, tantinets, tartinais, tartinees]} à tartinais
