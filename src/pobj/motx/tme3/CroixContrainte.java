@@ -7,17 +7,34 @@ import java.util.Set;
 
 import pobj.motx.tme2.*;
 
+/**
+ * Classe de représentation de CroixContrainte ontrainte de croisement entre deux mots
+ */
+
 public class CroixContrainte implements IContrainte {
-	
+	/** numéro d'emplacement et de case*/
 	private int m1, c1, m2, c2;
 	
+	/**
+	 *Construit une CroixContrainte 
+	 *@param m1 indice emplacement 1
+	 *@param c1 indice case 1 
+	 *@param m2 indice emplacement 2
+	 *@param c2 indice case 2
+	 */
 	public CroixContrainte(int m1, int c1, int m2, int c2) {
 		this.m1 = m1;
 		this.c1 = c1;
 		this.m2 = m2;
 		this.c2 = c2;
 	}
-
+	
+	/**
+	* Cree un ensemble characteres a partir du numero d'emplacement , de num de case et de liste de dictionnaires
+	* @param m indice de l'emplacement
+	* @param liste_dico liste de dictionnaire
+	* @return l'ensemble de characteres
+	 */
 	private Set<Character> ensemble(int m, int c, List<Dictionnaire> liste_dico){
 		Dictionnaire motsPot = liste_dico.get(m);
 		Set<Character> ensemble = new HashSet<Character>();
@@ -28,6 +45,12 @@ public class CroixContrainte implements IContrainte {
 		return ensemble;
 	}
 	
+
+    /**
+     * Réduit le nombre de mots possibles dans les dictionnaires en appliquant la contrainte de croisement.
+     * @param grille la grille potentielle contenant les emplacements et leurs dictionnaires associés
+     * @return le nombre de mots supprimés 
+     */
 	 public int reduce(GrillePotentiel grille) {
 	        Dictionnaire d1 = grille.getMotsPot().get(m1);
 	        Dictionnaire d2 = grille.getMotsPot().get(m2);
@@ -60,10 +83,15 @@ public class CroixContrainte implements IContrainte {
 	        return nbReduce;
 	    }
 	    
-
-	    // Méthode pour filtrer les mots dans un dictionnaire selon un ensemble de lettres à l'index donné
-	    private int filtreParEnsembleLettre(Dictionnaire d, Set<Character> lettresPossibles, int index) {
-	        List<String> mots = d.getMots();  // Récupérer les mots
+	 /**
+	     * Filtre les mots dans un dictionnaire en fonction d'un ensemble de lettres possibles à un index donné.
+	     * @param d le dictionnaire à filtrer
+	     * @param lettresPossibles ensemble des lettres possibles
+	     * @param index position de la lettre dans les mots du dictionnaire
+	     * @return le nombre de mots filtrés (supprimés)
+	     */
+	 private int filtreParEnsembleLettre(Dictionnaire d, Set<Character> lettresPossibles, int index) {
+	    	List<String> mots = d.getMots();  // Récupérer les mots
 	        List<String> motsFiltrés = new ArrayList<>();  // Créer une nouvelle liste pour stocker les mots filtrés
 	        int nbFiltres = 0;
 
@@ -80,17 +108,25 @@ public class CroixContrainte implements IContrainte {
 
 	        return nbFiltres;
 	    }
-
+	    
+	    /**
+	     * Représentation sous forme de chaîne de la contrainte de croisement.
+	     * @return une description textuelle de la contrainte sous forme "(m1, c1) - (m2, c2)"
+	     */
 	    @Override 
 	    public String toString() {
 	    	return "Croisement : (" + m1 + ", " + c1+ ") - (" + m2 + ", " + c2 + ")\n";
 	    }
 	
-
-	public boolean equals(Object other) {
-		if (other == this) return true;
-		if(!( other instanceof CroixContrainte)) return false;
-		CroixContrainte c = (CroixContrainte) other;
-		return c.m1 == m1 && c.m2 == m2 && c.c1 == c1 && c.c2 == c2;
+	    /**
+	     * Vérifie si deux contraintes de croisement sont égales.
+	     * @param other l'objet à comparer
+	     * @return true si les deux contraintes sont égales, false sinon
+	     */
+		public boolean equals(Object other) {
+			if (other == this) return true;
+			if(!( other instanceof CroixContrainte)) return false;
+			CroixContrainte c = (CroixContrainte) other;
+			return c.m1 == m1 && c.m2 == m2 && c.c1 == c1 && c.c2 == c2;
+		}
 	}
-}
