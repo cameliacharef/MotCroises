@@ -36,7 +36,6 @@ TME-3:
     pobj.motx.tme3.test.GrilleSolverTest
     pobj.motx.tme3.test.GrilleSolverTestEnonce
     pobj.motx.tme3.test.GrilleSolverTestHard
-    pobj.motx.tme3.test.GrilleSolverTestLarge
     pobj.motx.tme3.test.GrilleSolverTestLargeur
     pobj.motx.tme3.test.GrilleSolverTestMedium
     pobj.motx.tme3.test.GrilleSolverTestStrat
