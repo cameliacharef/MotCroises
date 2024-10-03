@@ -8,7 +8,8 @@ import pobj.motx.tme2.Dictionnaire;
 import pobj.motx.tme2.GrillePlaces;
 import pobj.motx.tme3.GrilleContrainte;
 import pobj.motx.tme3.adapt.MotX;
-import pobj.motx.tme3.adapt.StratFirst;
+import pobj.motx.tme3.adapt.*;
+import pobj.motx.tme3.adapt.StratFreq;
 import pobj.motx.tme3.adapt.StratMin;
 import pobj.motx.tme3.csp.CSPSolver;
 import pobj.motx.tme3.csp.ICSP;
@@ -27,9 +28,13 @@ public class GrilleSolverTestLarge {
 		ICSP problem = new MotX(gp);
 		CSPSolver solver = new CSPSolver();
 		
-		solver.setChoixVarStrat(new StratFirst());
-		solver.setChoixVarStrat(new StratMin());
-
+		//solver.setChoixVarStrat(new StratFirst());
+		//solver.setChoixVarStrat(new StratMin());
+		//solver.setChoixValeurStrat(new StratFreq());
+		//solver.setChoixValeurStrat(new StratRandom());
+		
+		solver.setChoixValeurStrat(new StratBasic());
+		
 		long timestamp = System.currentTimeMillis();
 		ICSP solution = solver.solve(problem);
 

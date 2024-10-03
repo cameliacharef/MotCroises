@@ -27,7 +27,7 @@ public class CSPSolver {
 		// On est garantis que ! getVars().isEmpty(), testé au dessus
 		
 		//=======================BONUS============================
-		IVariable vi = null;
+		IVariable vi = problem.getVars().get(0);
 		if(stratVar != null) {
 			vi = stratVar.chooseVar(problem);
 		}
@@ -35,9 +35,7 @@ public class CSPSolver {
 			List<String> new_domain = stratVal.orderValues(problem, vi); 
 			vi.setDomain(new_domain);
 		}
-		else {
-			vi = problem.getVars().get(0);
-		}
+		
 		//==========================================================
 
 		ICSP next = null;

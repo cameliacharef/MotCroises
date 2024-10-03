@@ -29,7 +29,8 @@ public class GrilleSolverTestLargeur {
 		
 		solver.setChoixVarStrat(new StratFirst());
 		solver.setChoixVarStrat(new StratMin());
-
+		//solver.setChoixValeurStrat(new StratFreq());
+		//solver.setChoixValeurStrat(new StratRandom());
 		long timestamp = System.currentTimeMillis();
 		ICSP solution = solver.solve(problem);
 
