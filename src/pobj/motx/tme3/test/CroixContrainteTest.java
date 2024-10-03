@@ -12,7 +12,7 @@ import pobj.motx.tme2.GrillePotentiel;
 import pobj.motx.tme3.CroixContrainte;
 
 public class CroixContrainteTest {
-
+	//test
 	@Test
 	public void test1() {
 		Dictionnaire gut = Dictionnaire.loadDictionnaire("data/frgut.txt");
