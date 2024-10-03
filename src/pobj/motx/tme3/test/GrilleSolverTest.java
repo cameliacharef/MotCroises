@@ -76,7 +76,7 @@ public class GrilleSolverTest {
 
 			System.out.println("Solution \n" + solution + " \nCalculée en "+ (System.currentTimeMillis() - timestamp) +" ms " );
 				
-			System.out.println("Test Propage (fin) : \n" + gr);
+			System.out.println("Test Propage (fin) : \n" + gp);
 
 		}
 			
