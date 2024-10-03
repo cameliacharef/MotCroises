@@ -21,7 +21,7 @@ public class GrilleSolverTestMedium {
 
 		GrillePlaces grille = new GrillePlaces(gr);
 		GrilleContrainte gp = new GrilleContrainte(grille, gut);
-			
+					
 		ICSP problem = new MotX(gp);
 		CSPSolver solver = new CSPSolver();
 

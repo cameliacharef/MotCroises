@@ -1,5 +1,7 @@
 package pobj.motx.tme3.test;
 
+import static org.junit.Assert.assertTrue;
+
 import org.junit.jupiter.api.Test;
 
 import pobj.motx.tme1.Grille;
@@ -8,6 +10,8 @@ import pobj.motx.tme2.Dictionnaire;
 import pobj.motx.tme2.GrillePlaces;
 import pobj.motx.tme3.GrilleContrainte;
 import pobj.motx.tme3.adapt.MotX;
+import pobj.motx.tme3.adapt.StratFirst;
+import pobj.motx.tme3.adapt.StratMin;
 import pobj.motx.tme3.csp.CSPSolverCorrige;
 import pobj.motx.tme3.csp.ICSP;
 
@@ -24,13 +28,13 @@ public class GrilleSolverCorrigeTest {
 		GrilleContrainte gp = new GrilleContrainte(grille, gut);
 		
 		// System.out.println(gp);
-		// assertTrue(! gp.isDead());
+		assertTrue(! gp.isDead());
 
 		ICSP problem = new MotX(gp);
 		CSPSolverCorrige solver = new CSPSolverCorrige();
 
-		// solver.setStrat(new StratFirst());
-		// solver.setStrat(new StratMin());
+		 solver.setStrat(new StratFirst());
+		 solver.setStrat(new StratMin());
 		
 		long timestamp = System.currentTimeMillis();
 		ICSP solution = solver.solve(problem);

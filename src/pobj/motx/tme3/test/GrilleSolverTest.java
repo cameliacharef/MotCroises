@@ -1,5 +1,7 @@
 package pobj.motx.tme3.test;
 
+import static org.junit.Assert.assertTrue;
+
 import org.junit.jupiter.api.Test;
 
 import pobj.motx.tme1.Grille;
@@ -23,6 +25,7 @@ public class GrilleSolverTest {
 
 			GrillePlaces grille = new GrillePlaces(gr);
 			GrilleContrainte gp = new GrilleContrainte(grille, gut);
+			
 				
 			ICSP problem = new MotX(gp);
 			CSPSolver solver = new CSPSolver();
@@ -46,6 +49,7 @@ public class GrilleSolverTest {
 
 			GrillePlaces grille = new GrillePlaces(gr);
 			GrilleContrainte gp = new GrilleContrainte(grille, gut);
+
 				
 			ICSP problem = new MotX(gp);
 			CSPSolver solver = new CSPSolver();
@@ -68,6 +72,7 @@ public class GrilleSolverTest {
 
 			GrillePlaces grille = new GrillePlaces(gr);
 			GrilleContrainte gp = new GrilleContrainte(grille, gut);
+			
 				
 			ICSP problem = new MotX(gp);
 			CSPSolver solver = new CSPSolver();

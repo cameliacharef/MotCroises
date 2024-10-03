@@ -37,7 +37,6 @@ public class MotX implements ICSP{
 		return true;
 	}
 	public ICSP assign(IVariable vi, String val) {
-		//MotX mx = new MotX(gc);
 		MotX mx = null;
 		if(vi instanceof DicoVariable) {
 			DicoVariable d = (DicoVariable) vi;
