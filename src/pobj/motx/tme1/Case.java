@@ -67,17 +67,4 @@ public class Case {
 		return valeur == '*';
 	}
 	
-	/**
-	* Test l'egalite entre les 2 cases
-	* @param other objet a tester
-	* @return true si l'objet est egale a la case , false sinon
-	 */
-	//@Override
-	/*public boolean equals(Object other) {
-		if (other == this) return true;
-		if(!( other instanceof Case)) return false;
-		Case c = (Case) other;
-		return c.ligne == ligne && c.colonne == colonne && c.valeur == valeur ;
-	}*/
-	
 }

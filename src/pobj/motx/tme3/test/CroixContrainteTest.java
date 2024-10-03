@@ -28,6 +28,8 @@ public class CroixContrainteTest {
 
 		CroixContrainte c2 = new CroixContrainte(1,3,2,4);
 		assertEquals(236, c2.reduce(gp));
+		
+		System.out.println(gp);
 	}
 
 	@Test

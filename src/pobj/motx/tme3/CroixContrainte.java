@@ -81,6 +81,10 @@ public class CroixContrainte implements IContrainte {
 	        return nbFiltres;
 	    }
 
+	    @Override 
+	    public String toString() {
+	    	return "Croisement : (" + m1 + ", " + c1+ ") - (" + m2 + ", " + c2 + ")\n";
+	    }
 	
 
 	public boolean equals(Object other) {

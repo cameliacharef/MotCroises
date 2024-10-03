@@ -75,7 +75,7 @@ public class Dictionnaire {
 	}
 	
 	/**
-	 * lit le fichier path et le stocke dans un dictionnaire
+	 * affiche la taille du dictionnaire
 	 * @return le dictionnaire lu
 	 */
 	@Override

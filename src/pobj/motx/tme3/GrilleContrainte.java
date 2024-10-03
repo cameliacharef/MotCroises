@@ -87,7 +87,7 @@ public class GrilleContrainte extends GrillePotentiel{
 			}
 		}
 		
-		
 	}
+	@Override public String toString() {return super.toString();}
 }
 

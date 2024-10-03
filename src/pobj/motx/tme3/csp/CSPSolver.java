@@ -3,6 +3,7 @@ package pobj.motx.tme3.csp;
 public class CSPSolver {
 	// BONUS
 	private IChoixVar stratVar;
+	private IChoixVar stratVal;
 
 	public ICSP solve(ICSP problem) {
 		System.out.println("Solve : \n" + problem);

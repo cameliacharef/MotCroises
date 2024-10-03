@@ -11,25 +11,94 @@ import pobj.motx.tme3.adapt.MotX;
 import pobj.motx.tme3.csp.CSPSolver;
 import pobj.motx.tme3.csp.ICSP;
 
+
 public class GrilleSolverTest {
 
-	@Test
-	public void testHard() {
-		Dictionnaire gut = Dictionnaire.loadDictionnaire("data/frgut.txt");
-		Grille gr = GrilleLoader.loadGrille("data/easy.grl");
+		@Test
+		public void testEasy() {
+			Dictionnaire gut = Dictionnaire.loadDictionnaire("data/frgut.txt");
+			Grille gr = GrilleLoader.loadGrille("data/easy.grl");
 
-		System.out.println(gr);
+			System.out.println("Test Easy (début) : \n" + gr);
 
-		GrillePlaces grille = new GrillePlaces(gr);
-		GrilleContrainte gp = new GrilleContrainte(grille, gut);
-		
-		ICSP problem = new MotX(gp);
-		CSPSolver solver = new CSPSolver();
+			GrillePlaces grille = new GrillePlaces(gr);
+			GrilleContrainte gp = new GrilleContrainte(grille, gut);
+				
+			ICSP problem = new MotX(gp);
+			CSPSolver solver = new CSPSolver();
 
-		long timestamp = System.currentTimeMillis();
-		ICSP solution = solver.solve(problem);
+			long timestamp = System.currentTimeMillis();
+			ICSP solution = solver.solve(problem);
 
-		System.out.println("Solution \n" + solution + " \nCalculée en "+ (System.currentTimeMillis() - timestamp) +" ms " );
-	}
+			System.out.println("Solution \n" + solution + " \nCalculée en "+ (System.currentTimeMillis() - timestamp) +" ms " );
+				
+			System.out.println("Test Easy (fin) : \n" + gr);
+
+		}
+			
+		@Test
+		public void testEnoncer() {
+			Dictionnaire gut = Dictionnaire.loadDictionnaire("data/frgut.txt");
+			Grille gr = GrilleLoader.loadGrille("data/enonce.grl");
+
+			System.out.println("Test Enoncer (début) : \n" + gr);
+
+			GrillePlaces grille = new GrillePlaces(gr);
+			GrilleContrainte gp = new GrilleContrainte(grille, gut);
+				
+			ICSP problem = new MotX(gp);
+			CSPSolver solver = new CSPSolver();
+
+			long timestamp = System.currentTimeMillis();
+			ICSP solution = solver.solve(problem);
+
+			System.out.println("Solution \n" + solution + " \nCalculée en "+ (System.currentTimeMillis() - timestamp) +" ms " );
+				
+			System.out.println("Test Enoncer (fin) : \n" + gr);
+
+		}
+			
+		@Test
+		public void testPropage() {
+			Dictionnaire gut = Dictionnaire.loadDictionnaire("data/frgut.txt");
+			Grille gr = GrilleLoader.loadGrille("data/propage.grl");
+
+			System.out.println("Test Propage (début) : \n" + gr);
+
+			GrillePlaces grille = new GrillePlaces(gr);
+			GrilleContrainte gp = new GrilleContrainte(grille, gut);
+				
+			ICSP problem = new MotX(gp);
+			CSPSolver solver = new CSPSolver();
+
+			long timestamp = System.currentTimeMillis();
+			ICSP solution = solver.solve(problem);
+
+			System.out.println("Solution \n" + solution + " \nCalculée en "+ (System.currentTimeMillis() - timestamp) +" ms " );
+				
+			System.out.println("Test Propage (fin) : \n" + gr);
+
+		}
+			
+		@Test
+		public void testSplit() {
+			Dictionnaire gut = Dictionnaire.loadDictionnaire("data/frgut.txt");
+			Grille gr = GrilleLoader.loadGrille("data/split.grl");
+
+			System.out.println("Test Split (début) : \n" + gr);
+
+			GrillePlaces grille = new GrillePlaces(gr);
+			GrilleContrainte gp = new GrilleContrainte(grille, gut);
+				
+			ICSP problem = new MotX(gp);
+			CSPSolver solver = new CSPSolver();
+				
+			long timestamp = System.currentTimeMillis();
+			ICSP solution = solver.solve(problem);
+
+			System.out.println("Solution \n" + solution + " \nCalculée en "+ (System.currentTimeMillis() - timestamp) +" ms " );
+				
+			System.out.println("Test Split (fin) : \n" + gr);
+		}
 
 }
