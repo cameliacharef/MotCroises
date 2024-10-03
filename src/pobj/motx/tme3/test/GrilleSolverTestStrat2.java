@@ -165,6 +165,6 @@ public class GrilleSolverTestStrat2 {
 	        System.out.println("StratFreq est plus rapide que StratMin.");
 	    }
 	    
-	    
+	    //BONJOURRRRRRRRRRRRRRRRRRRRRRRRR
 	}
 }
