@@ -34,6 +34,13 @@ TME-3:
     pobj.motx.tme3.test.GrilleContrainteTest2
     pobj.motx.tme3.test.GrilleContrainteTest3
     pobj.motx.tme3.test.GrilleSolverTest
+    pobj.motx.tme3.test.GrilleSolverTestEnonce
+    pobj.motx.tme3.test.GrilleSolverTestHard
+    pobj.motx.tme3.test.GrilleSolverTestLarge
+    pobj.motx.tme3.test.GrilleSolverTestLargeur
+    pobj.motx.tme3.test.GrilleSolverTestMedium
+    pobj.motx.tme3.test.GrilleSolverTestStrat
+    pobj.motx.tme3.test.GrilleSolverTestStrat2
   artifacts:
     reports:
       junit: report.xml
