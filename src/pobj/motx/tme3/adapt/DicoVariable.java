@@ -18,7 +18,9 @@ public class DicoVariable implements IVariable{
 		List<String> mots = grille_contrainte.getMotsPot().get(indice).getMots();
 		return mots;
 	}
-	
+	public void setDomain(List<String> domain){
+		grille_contrainte.getMotsPot().get(indice).setMots(domain);
+	}
 	public String toString() {
 		return "index = " + indice + ", domaine = " + getDomain()+"}";
 	}

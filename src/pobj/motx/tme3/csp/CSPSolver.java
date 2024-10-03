@@ -1,9 +1,13 @@
 package pobj.motx.tme3.csp;
 
+import java.util.List;
+
+import pobj.motx.tme3.*;
+
 public class CSPSolver {
 	// BONUS
 	private IChoixVar stratVar;
-	private IChoixVar stratVal;
+	private IChoixValeur stratVal;
 
 	public ICSP solve(ICSP problem) {
 		System.out.println("Solve : \n" + problem);
@@ -21,7 +25,20 @@ public class CSPSolver {
 		}
 		// On choisit une variable arbitraire, ici la première
 		// On est garantis que ! getVars().isEmpty(), testé au dessus
-		IVariable vi = problem.getVars().get(0);
+		
+		//=======================BONUS============================
+		IVariable vi = null;
+		if(stratVar != null) {
+			vi = stratVar.chooseVar(problem);
+		}
+		if (stratVal != null) {
+			List<String> new_domain = stratVal.orderValues(problem, vi); 
+			vi.setDomain(new_domain);
+		}
+		else {
+			vi = problem.getVars().get(0);
+		}
+		//==========================================================
 
 		ICSP next = null;
 		// On est garantis que toute variable a un domaine non nul
@@ -43,6 +60,10 @@ public class CSPSolver {
 	
 	public void setChoixVarStrat(IChoixVar strat) {
 		stratVar = strat;
+	}
+	
+	public void setChoixValeurStrat(IChoixValeur strat) {
+		stratVal = strat;
 	}
 
 
