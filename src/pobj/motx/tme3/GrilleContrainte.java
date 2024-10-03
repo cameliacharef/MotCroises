@@ -5,9 +5,21 @@ import java.util.List;
 
 import pobj.motx.tme2.*;
 import pobj.motx.tme1.*;
+
+/**
+ * Classe GrilleContrainte : gère une grille de mots avec des contraintes de croisement.
+ * Hérite de GrillePotentiel et ajoute des contraintes de croisement pour gérer les intersections entre les mots.
+ */
 public class GrilleContrainte extends GrillePotentiel{
+	/** Liste des contraintes de croisement */
 	private List<IContrainte> contraintes;
 	
+	/**
+     * Constructeur : initialise une GrilleContrainte avec une grille et un dictionnaire complet.
+     * Ajoute les contraintes de croisement entre les mots et propage les réductions possibles.
+     * @param grille la grille de mots avec les emplacements
+     * @param dicoComplet le dictionnaire complet de mots possibles
+     */
 	public GrilleContrainte(GrillePlaces grille, Dictionnaire dicoComplet) {
 		super(grille, dicoComplet);
 		contraintes = new ArrayList<IContrainte>();
@@ -15,6 +27,10 @@ public class GrilleContrainte extends GrillePotentiel{
 		propage();
 	}
 	
+	/**
+     * Met à jour la liste des contraintes en détectant les croisements entre les mots de la grille.
+     * Compare les emplacements horizontaux et verticaux pour ajouter les contraintes de croisement.
+     */
 	private void updateContraintes() {
 		GrillePlaces grillePlaces = super.getGrillePlaces();
 		List<Emplacement> places = grillePlaces.getPlaces();
@@ -50,15 +66,14 @@ public class GrilleContrainte extends GrillePotentiel{
     		}
 	}
 	
-	/**
-	* initialisera une nouvelle GrilleContrainte avec la grille résultant de l’affectation.
-	* @param m indice de l'emplacement 	public boolean contains(Character c) {
-		return l.contains(c);
-	}
-	
-	* @param soluce lettres a chercher
-	* @return une nouvelle GrilleContrainte avec la grille résultant de l’affectation.
-	 */
+	 /**
+     * Crée une nouvelle GrilleContrainte après avoir fixé une solution pour un emplacement donné.
+     * Applique la solution (mot) à l'emplacement, met à jour la grille et renvoie la nouvelle grille contrainte.
+     * 
+     * @param m l'indice de l'emplacement à fixer
+     * @param soluce la solution (mot) à placer à l'emplacement
+     * @return une nouvelle GrilleContrainte avec la grille mise à jour
+     */
 	public GrilleContrainte fixer(int m, String soluce) {
 		GrillePlaces grilleplace = super.getGrillePlaces();
 		GrillePlaces nvgrillePlace = grilleplace.fixer(m, soluce);
@@ -68,10 +83,20 @@ public class GrilleContrainte extends GrillePotentiel{
 	}
 	
 	
-	// Accesseurs 
+	/**
+     * Accesseur pour obtenir la liste des contraintes.
+     * @return la liste des contraintes appliquées sur la grille
+     */
 	public List<IContrainte> getContraintes(){
 		return contraintes;
 	}
+	
+	/**
+     * Propage les contraintes jusqu'à ce que la grille soit stable.
+     * Applique les réductions des mots possibles pour chaque contrainte, tant que des changements sont détectés.
+     * 
+     * @return true si la propagation est terminée avec succès, false si la grille est insolvable (bloquée)
+     */
 	private boolean propage() {
 		int nb_mot_elimine = 0;
 		while(true) {
@@ -88,6 +113,13 @@ public class GrilleContrainte extends GrillePotentiel{
 		}
 		
 	}
-	@Override public String toString() {return super.toString();}
+	 /**
+     * Renvoie une représentation sous forme de chaîne de caractères de la grille contrainte.
+     * @return la chaîne de caractères représentant la grille actuelle
+     */
+	@Override 
+		public String toString() {
+			return super.toString();
+		}
 }
 
