@@ -36,28 +36,7 @@ public class GrilleSolverTest {
 
 		}
 			
-		@Test
-		public void testEnoncer() {
-			Dictionnaire gut = Dictionnaire.loadDictionnaire("data/frgut.txt");
-			Grille gr = GrilleLoader.loadGrille("data/enonce.grl");
-
-			System.out.println("Test Enoncer (début) : \n" + gr);
-
-			GrillePlaces grille = new GrillePlaces(gr);
-			GrilleContrainte gp = new GrilleContrainte(grille, gut);
-				
-			ICSP problem = new MotX(gp);
-			CSPSolver solver = new CSPSolver();
-
-			long timestamp = System.currentTimeMillis();
-			ICSP solution = solver.solve(problem);
-
-			System.out.println("Solution \n" + solution + " \nCalculée en "+ (System.currentTimeMillis() - timestamp) +" ms " );
-				
-			System.out.println("Test Enoncer (fin) : \n" + gr);
-
-		}
-			
+					
 		@Test
 		public void testPropage() {
 			Dictionnaire gut = Dictionnaire.loadDictionnaire("data/frgut.txt");
