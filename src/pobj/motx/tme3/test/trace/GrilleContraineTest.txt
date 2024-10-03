@@ -1,0 +1,24 @@
+Chargement grille 5 lignes x 5 colonnes 
+
+===============
+       C       
+ *  *  H  *  * 
+ *  *  A  *  * 
+ *  *  T  *  * 
+       S       
+===============
+
+  c  
+  s  
+chats
+
+Chargement grille 5 lignes x 5 colonnes 
+
+===============
+               
+               
+               
+               
+               
+===============
+

@@ -1,0 +1,9 @@
+Chargement grille 5 lignes x 5 colonnes 
+
+Succès test GrillePotentiel : easy.
+Chargement grille 5 lignes x 5 colonnes 
+
+Succès test GrillePotentiel : hard.
+Chargement grille 5 lignes x 5 colonnes 
+
+Succès test GrillePotentiel : medium.

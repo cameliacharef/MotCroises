@@ -1,0 +1,160 @@
+Chargement grille 20 lignes x 20 colonnes 
+
+Succès test GrillePotentiel : large.
+Chargement grille 20 lignes x 20 colonnes 
+
+Succès test GrillePotentiel : large2.
+Chargement grille 20 lignes x 20 colonnes 
+
+Succès test GrillePotentiel : large3.
+Chargement grille 20 lignes x 20 colonnes 
+
+============================================================
+ C  A  S  T  R  E  *  O  R  M  E  S  *                    * 
+ A  V  E  R  E  *  O  S  A  I  *  U  S  *                 * 
+ P  E  R  I  D  U  R  A  L  *  D  R  A  C  E  N  A  *       
+ E  U  S  T  U  *  *  S  E  D  U  I  S  E  S  *             
+ E  *  *  O  C  *  *  *  N  E  O  N  S  *           *       
+ R  I  A  N  T  E  *  E  T  C  *  *  E  M                 * 
+ *  M  *  *  A  N  *  C  I  A  P  R  E  S  *                
+ E  M  U  *  S  C  I  A  *  D  U  E  *  *  V           *    
+ T  U  R  B  E  H  *  T  H  E  T  A  *  *  A  N  *          
+ A  N  A  *  *  E  M  I  A  N  T  *     C  C              * 
+ L  I  E  *  *  R  E  E  R  A  I  S  *  H  U  I  *          
+ *  S  U  S  D  I  T  *  E  S  *  *  *  O  U              * 
+ C  A  S  T  O  R  E  U  M  S  *  E  L  I  M  E  *  *       
+ U  S  *  R  *  *  I  S  S  A  N  T  E  S  *  *  *          
+ L  *  C  I  N  C  L  E  *  *  *  A  G  I  *  E  *          
+ A  H  A  N  A  I  *  N  E  A  N  T  I  S  A  T  I  O  N  S 
+ *  *  D  G  *  *  E  T  O  C  *  *  O  S  *  C             
+ S  K  I  *  *  *  H  *  N  O  M  I  N  A  L  *     *     * 
+ E  S  *  *  E  X  *  U  *  N  *  C  *  N  I                
+ L  I  N  G  U  I  S  T  E  *     I     T  E              * 
+============================================================
+
+castre
+ormes
+      
+avere
+osai
+us
+     
+peridural
+dracena
+  
+eustu
+seduises
+    
+oc
+neons
+   
+  
+riante
+etc
+em     
+an
+ciapres
+     
+emu
+scia
+due
+v   
+turbeh
+theta
+an
+   
+ana
+emiant
+ cc    
+lie
+reerais
+hui
+   
+susdit
+es
+ou    
+castoreums
+elime
+  
+us
+issantes
+   
+cincle
+agi
+   
+ahanai
+neantisations
+dg
+etoc
+os
+c    
+ski
+nominal
+es
+ex
+ni     
+linguiste
+ i te    
+capeer
+etal
+cula
+sel
+aveu
+immunisas
+ksi
+sers
+uraeus
+cadi
+triton
+string
+reductase
+do
+na
+eu
+encherir
+ci
+xi
+or
+meteil
+eh
+osas
+ecatie
+usent
+ut
+ralenti
+harems
+eon
+mi
+decadenassa
+acon
+duo
+putti
+surin
+rea
+etat
+ici
+sassee
+legion
+ce
+ms
+choisissant
+  es  
+vacuum
+lie
+  n
+    n i e
+etc
+  
+  a     
+i    
+  
+       
+  o 
+  
+       
+       n    
+   
+   
+   s 
+
+Succès test GrillePotentiel : large 4.
