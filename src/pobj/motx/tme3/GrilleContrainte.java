@@ -24,7 +24,7 @@ public class GrilleContrainte extends GrillePotentiel{
 		super(grille, dicoComplet);
 		contraintes = new ArrayList<IContrainte>();
 		updateContraintes(); // renseigner l’attribut contraintes
-		propage();
+		propage(); // Propage les contraintes pour réduire le nombre de mots possibles
 	}
 	
 	/**
@@ -45,14 +45,14 @@ public class GrilleContrainte extends GrillePotentiel{
 			
 			for(int j = size_horizontaux; j < size_total; j++) {
 				Emplacement vertical = places.get(j);
-				
+				// Comparer chaque case de l'emplacement horizontal avec chaque case de l'emplacement vertical
 				for (int c1 = 0; c1 < horizontal.size(); c1++) {
 					Case cHorizontal = horizontal.getCase(c1); // comparer cette case avec toutes les cases verticales
 					
 					for(int c2 = 0; c2 < vertical.size(); c2++) {
 						Case cVertical = vertical.getCase(c2);
 						
-						
+						 // Ajouter une contrainte si les deux cases se croisent et sont vides
 						if (cHorizontal.equals(cVertical) && horizontal.getCase(c1).isVide()) { // croisement et case sans lettre
 							CroixContrainte c = new CroixContrainte(i, c1, j, c2 );
 							contraintes.add(c); 
@@ -61,6 +61,7 @@ public class GrilleContrainte extends GrillePotentiel{
 				}
 			}
 		}
+		 // Appliquer les réductions pour chaque contrainte trouvée
 		for(IContrainte ic : contraintes) {
     			ic.reduce(this);
     		}
@@ -101,12 +102,15 @@ public class GrilleContrainte extends GrillePotentiel{
 		int nb_mot_elimine = 0;
 		while(true) {
 			nb_mot_elimine = 0;
+			// Applique les réductions pour chaque contrainte
 			for (IContrainte i :  contraintes) {
 				nb_mot_elimine += i.reduce(this);
 			}
+			// Vérifie si la grille est bloquée
 			if (this.isDead()){
 				return false;
 			}
+			 // Si aucun mot n'a été éliminé, la grille est stable
 			if(nb_mot_elimine == 0) {
 				return true;
 			}
